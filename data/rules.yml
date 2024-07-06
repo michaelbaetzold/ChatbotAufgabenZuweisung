@@ -1,0 +1,21 @@
+version: "2.0"
+rules:
+- rule: Handle IT Support Anfragen
+  steps:
+  - intent: ask_it_support
+  - action: utter_it_support
+
+- rule: Handle Lager IT Support Anfragen
+  steps:
+  - intent: ask_lager_it_support
+  - action: utter_lager_it_support
+
+- rule: Handle BLS Support Anfragen
+  steps:
+  - intent: ask_bls_support
+  - action: utter_bls_support
+
+- rule: Handle EDI Support Anfragen
+  steps:
+  - intent: ask_edi_support
+  - action: utter_edi_support

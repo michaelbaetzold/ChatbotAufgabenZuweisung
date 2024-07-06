@@ -1,0 +1,37 @@
+version: '3.0'
+
+intents:
+  - ask_it_support
+  - ask_lager_it_support
+  - ask_bls_support
+  - ask_edi_support
+
+entities:
+  - problem
+  - department
+
+slots:
+  problem:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: problem
+  department:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: department
+
+responses:
+  utter_it_support:
+    - text: "Ihr Anliegen wurde der IT-Abteilung zugewiesen. Ein Mitarbeiter wird sich in Kürze bei Ihnen melden."
+  utter_lager_it_support:
+    - text: "Ihr Anliegen wurde der Lager-IT-Abteilung zugewiesen. Ein Mitarbeiter wird sich in Kürze bei Ihnen melden."
+  utter_bls_support:
+    - text: "Ihr Anliegen wurde der BLS-Abteilung zugewiesen. Ein Mitarbeiter wird sich in Kürze bei Ihnen melden."
+  utter_edi_support:
+    - text: "Ihr Anliegen wurde der EDI-Abteilung zugewiesen. Ein Mitarbeiter wird sich in Kürze bei Ihnen melden."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

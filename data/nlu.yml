@@ -1,0 +1,1635 @@
+nlu:
+- intent: ask_it_support
+  examples: |
+    - Welche Hardwarekomponenten sind in meinem Computer verbaut?
+    - Kann ich die RAM-Kapazität meines Computers erweitern?
+    - Wie kann ich die Festplattenkapazität meines PCs überprüfen?
+    - Welche Grafikkarte ist in meinem Laptop verbaut?
+    - Mein Computer startet langsam. Liegt das an der Festplatte?
+    - Wie kann ich die CPU-Temperatur meines Computers überwachen?
+    - Welche Maus empfehlen Sie für den Gaming-Einsatz?
+    - Kann ich die Batterie meines Laptops selbst austauschen?
+    - Mein Drucker druckt nicht mehr. Wie überprüfe ich die Druckerkartuschen?
+    - Welche Tastatur eignet sich am besten für den Bürogebrauch?
+    - Wie kann ich die Bildschirmauflösung meines Monitors ändern?
+    - Welche Ethernet-Kabelart ist am besten für schnelle Internetverbindungen geeignet?
+    - Kann ich eine SSD-Festplatte in meinen Desktop-Computer einbauen?
+    - Wie kann ich die Treiber meiner Grafikkarte aktualisieren?
+    - Welche Sicherheitsmaßnahmen sollte ich beim Reinigen meines Computers beachten?
+    - Mein Laptop wird sehr heiß. Wie kann ich die Überhitzung verhindern?
+    - Welche externe Festplatte ist ideal für die Sicherung meiner Daten?
+    - Mein Drucker zeigt "Papierstau" an. Wie kann ich das Problem beheben?
+    - Welche WLAN-Karte ist mit meinem Desktop-PC kompatibel?
+    - Kann ich meinen Arbeitsmonitor mit meinem Laptop verbinden?
+    - Wie kann ich die Batterielebensdauer meines Smartphones verlängern?
+    - Welche Firewall-Software empfehlen Sie für den Schutz meiner Daten?
+    - Wie kann ich die Bildqualität meiner Webcam verbessern?
+    - Welche SSD-Marke bietet die beste Leistung für meinen Server?
+    - Kann ich die Arbeitsspeicher meines Computers auf Fehler überprüfen?
+    - Wie kann ich die Lüftergeschwindigkeit meines PCs anpassen
+    - Docuware defekt
+    - Mein PC startet nicht. Was könnte das Problem sein?
+    - Warum fährt mein Computer nicht hoch?
+    - Ich kann meinen Rechner nicht einschalten. Was soll ich tun?
+    - Der Drucker funktioniert nicht. Könnte jemand helfen?
+    - Warum druckt der Drucker nicht mehr?
+    - Mein Drucker ist kaputt. Wie kann ich das beheben?
+    - Ich habe ein Problem mit meinem PC. Kann mir jemand helfen?
+    - Der Computer zeigt einen Fehler an. Was kann ich tun?
+    - Ich brauche Hilfe bei Hardware-Fragen.
+    - Wer kann mir bei Hardware-Problemen helfen?
+    - Ich habe Fragen zu meinem PC. An wen kann ich mich wenden?
+    - Kann mir jemand bei meinen PC-Problemen helfen?
+    - Ich habe Probleme mit einer Software. Was kann ich tun?
+    - Wer kann mir bei Software-Problemen helfen?
+    - Mein Handy funktioniert nicht richtig. Was kann ich tun?
+    - Warum geht mein Mobiltelefon nicht?
+    - Mein Smartphone hat ein Problem. Kann mir jemand helfen?
+    - Ich kann nicht telefonieren. Was soll ich tun?
+    - Mein Telefon funktioniert nicht. Was könnte das Problem sein?
+    - VPN verbindet nicht. Was kann ich machen?
+    - Warum funktioniert mein VPN nicht?
+    - Die Firewall blockiert den Zugriff. Was soll ich tun?
+    - Ich habe ein Problem mit der Firewall. Kann mir jemand helfen?
+    - Warum startet mein Laptop nicht mehr?
+    - Was tun, wenn der Rechner nicht hochfährt?
+    - Hilfe, mein Drucker druckt keine Seiten mehr.
+    - Kann mir jemand bei Druckerproblemen helfen?
+    - Was könnte der Grund sein, dass der Drucker nicht druckt?
+    - Ich kann meinen PC nicht einschalten. Was tun?
+    - Mein Computer bleibt beim Start hängen. Was soll ich machen?
+    - Hilfe bei PC-Startproblemen gesucht. Was tun?
+    - Der Bildschirm bleibt schwarz. Wer kann mir helfen?
+    - Warum zeigt der Monitor nichts an?
+    - Mein Handy geht nicht an. Was kann ich tun?
+    - Hilfe, mein Mobiltelefon startet nicht mehr.
+    - Warum kann ich mein Smartphone nicht benutzen?
+    - Der VPN-Zugang funktioniert nicht. Was kann ich tun?
+    - Warum komme ich nicht ins VPN?
+    - Ich brauche Unterstützung bei Firewall-Problemen.
+    - Die Firewall blockiert alle Verbindungen. Was tun?
+    - Wer kann mir bei VPN-Problemen helfen?
+    - Ich habe ein Software-Problem. Wer kann helfen?
+    - pc startet nicht
+    - intent: ask_it_support
+    - Mein Laptop fährt sehr langsam hoch. Was kann ich tun?
+    - Warum funktioniert die Tastatur meines PCs nicht mehr?
+    - Mein Computer zeigt eine Bluescreen-Fehlermeldung an. Was bedeutet das?
+    - Ich habe Probleme mit der Installation einer neuen Software. Kann mir jemand helfen?
+    - Warum werden meine Dateien auf dem Server nicht synchronisiert?
+    - Mein Bildschirm flackert. Was könnte die Ursache sein?
+    - Ich kann keine E-Mails senden. Gibt es ein Problem mit dem Mail-Server?
+    - Mein Laptop überhitzt sich oft. Sollte ich mir Sorgen machen?
+    - Warum funktioniert die externe Festplatte nicht mehr?
+    - Probleme mit dem Drucken von Farbseiten. Wer kann helfen?
+    - Mein PC stürzt regelmäßig ab. Was kann ich tun, um das zu beheben?
+    - Warum dauert es so lange, bis mein Computer hochgefahren ist?
+    - Ich kann mich nicht in mein Benutzerkonto einloggen. Was soll ich tun?
+    - Probleme mit der Installation von Updates. Was könnte das Problem sein?
+    - Mein VPN-Tunnel bricht ständig ab. Wie kann ich das beheben?
+    - Warum funktioniert die Freigabe meines Druckers nicht?
+    - Ich habe mein Passwort vergessen. Wie kann ich es zurücksetzen?
+    - Mein PC zeigt eine Fehlermeldung beim Starten an. Was bedeutet das?
+    - Warum werden meine Dateien auf dem Netzwerklaufwerk nicht richtig gespeichert?
+    - Probleme mit der Soundausgabe meines Computers. Wer kann helfen?
+    - Mein Laptop lässt sich nicht mehr aufladen. Was kann ich tun?
+    - Warum funktioniert die Webcam meines Laptops nicht mehr?
+    - Ich habe Probleme mit der Verbindung zum WLAN. Was kann ich tun?
+    - Mein Bildschirm zeigt nur noch ein schwarzes Bild. Was könnte die Ursache sein?
+    - Warum bekomme ich immer wieder Pop-up-Fenster auf meinem Bildschirm?
+    - Ich kann auf bestimmte Websites nicht zugreifen. Gibt es ein Problem mit meinem Internet?
+    - Mein Drucker druckt nur leere Seiten aus. Wie kann ich das beheben?
+    - Warum funktioniert die Maus an meinem Computer nicht mehr richtig?
+    - Probleme mit der Wiedergabe von Videos auf meinem Computer. Wer kann helfen?
+    - Mein Tablet reagiert nicht mehr auf Berührungen. Was kann ich tun?
+    - Warum lässt sich mein Smartphone nicht mehr einschalten?
+    - Ich kann keine Dateien mehr auf meinem USB-Stick speichern. Was könnte das Problem sein?
+    - Mein Laptop fährt nicht mehr herunter. Was kann ich tun, um es auszuschalten?
+    - Warum erhalte ich immer wieder Fehlermeldungen beim Öffnen meiner Anwendungen?
+    - Probleme mit der Datensicherung auf meinem Computer. Wer kann helfen?
+    - Mein PC zeigt Symptome eines Virus oder einer Malware. Was soll ich tun?
+    - Warum funktioniert die Software zur Videobearbeitung nicht wie erwartet?
+    - Ich habe Probleme mit der Konfiguration meines Netzwerkdruckers. Wer kann helfen?
+    - Mein Bildschirm zeigt plötzlich Streifen an. Was könnte das verursachen?
+    - intent: ask_lager_it_support
+    - Der Etikettendrucker im Lager druckt nicht mehr. Was kann ich tun?
+    - Warum funktioniert der Handscanner nicht korrekt?
+    - Mein Lager-PC startet nicht mehr. Was soll ich tun, um ihn wieder in Gang zu bringen?
+    - Warum kann ich mich nicht in die Lager-Software einloggen?
+    - Mein Handheld-Gerät zeigt einen "Low Battery" Warnhinweis. Soll ich den Akku austauschen?
+    - Warum dauert es so lange, bis die Lager-Software geladen ist?
+    - Der Drucker für Lieferscheine funktioniert nicht mehr. Was sind die nächsten Schritte?
+    - Wie kann ich die Software für die Kommissionierung aktualisieren?
+    - Mein Drucker im Lager zieht das Papier schief ein. Gibt es eine einfache Lösung dafür?
+    - Warum funktioniert die Verbindung zwischen dem Lager-PC und dem Drucker nicht mehr?
+    - Der Handscanner zeigt Fehlermeldungen an, die ich nicht verstehe. Wie kann ich das Problem diagnostizieren?
+    - Warum werden die Daten von unserem Lager-PC nicht auf den zentralen Server übertragen?
+    - Die Webanwendung für die Bestandsverwaltung lädt sehr langsam. Gibt es Möglichkeiten, das zu beschleunigen?
+    - Mein Lager-PC reagiert nicht auf die Eingaben. Was soll ich tun, um ihn wieder zum Laufen zu bringen?
+    - Warum wird die Etikettendrucker-Software nicht mehr auf meinem Computer erkannt?
+    - Der Drucker im Lager druckt nur leere Seiten. Was kann ich tun, um das Problem zu beheben?
+    - Die Software für die Dateneingabe im Lager zeigt unerwartete Fehlermeldungen an. Was soll ich tun?
+    - Wie kann ich den Speicherplatz auf dem Lager-PC erweitern, um mehr Daten speichern zu können?
+    - Mein Handheld-Gerät stürzt ab, wenn ich die Barcode-Scan-Funktion benutzen möchte. Was könnte die Ursache sein?
+    - Der Handheld-Scanner reagiert nicht mehr auf die Berührungen. Wie kann ich das Problem beheben?
+    - Warum wird die Lager-Software auf meinem Computer nicht mehr aktualisiert?
+    - Die Verbindung zwischen dem Lager-PC und dem Drucker bricht häufig ab. Was kann ich tun, um das zu verhindern?
+    - Warum wird der Lager-PC immer langsamer, je länger ich ihn benutze?
+    - Wie kann ich die Batterie meines Handheld-Geräts austauschen, wenn sie nicht mehr aufgeladen wird?
+    - Warum funktioniert die Dockingstation für das Handheld-Gerät nicht mehr richtig?
+    - scanner verbindet sich nicht mit Schale
+    - Mein Handscanner zeigt einen "Battery Low" Warnhinweis, obwohl er gerade aufgeladen wurde. Wie kann ich das Problem beheben?
+    - Warum verliert mein Handscanner die Verbindung zum Lager-PC, während ich noch im Lager arbeite?
+    - Der Handscanner erkennt die Barcodes nicht mehr. Gibt es eine Möglichkeit, die Scan-Genauigkeit zu verbessern?
+    - Mein Handscanner scannt die Barcodes, aber die Daten werden nicht korrekt in die Lager-Software übertragen. Was könnte die Ursache sein?
+    - Warum funktioniert der Handscanner nur sporadisch? Manchmal scannt er, manchmal nicht.
+    - Der Handscanner bleibt während des Betriebs häufig stecken und reagiert nicht mehr. Wie kann ich das Problem lösen?
+    - Ich habe Probleme mit der Handscanner-Software. Wie kann ich sicherstellen, dass die Software korrekt installiert und konfiguriert ist?
+    - Mein Handscanner zeigt Fehlermeldungen an, die ich nicht verstehe. Was soll ich tun, um das Problem zu diagnostizieren?
+    - Warum reagiert der Handscanner nicht mehr auf die Tasten? Ich kann keine Einstellungen mehr ändern.
+    - Der Handscanner stürzt ab, wenn ich versuche, mehrere Barcodes in schneller Folge zu scannen. Gibt es eine Lösung dafür?
+    - Warum dauert es so lange, bis der Handscanner nach dem Einschalten einsatzbereit ist?
+    - Mein Handscanner scannt nur teilweise den Barcode und gibt dann einen Fehler aus. Was könnte die Ursache sein?
+    - Warum werden die gescannten Daten vom Handscanner nicht in Echtzeit in die Lager-Software übertragen?
+    - Der Handscanner zeigt an, dass die Verbindung zum Lager-PC verloren gegangen ist. Wie kann ich die Verbindung wiederherstellen?
+    - Mein Handscanner erkennt manche Barcodes, aber nicht alle. Gibt es eine Möglichkeit, die Scan-Genauigkeit zu erhöhen?
+    - Warum verliert der Handscanner seine Einstellungen jedes Mal, wenn er ausgeschaltet wird?
+    - Der Handscanner bleibt beim Einschalten hängen und zeigt keine Reaktion mehr. Wie kann ich ihn neu starten?
+    - Ich kann den Handscanner nicht einschalten, obwohl er vollständig aufgeladen ist. Was könnte das Problem sein?
+    - Warum funktioniert der Handscanner nur in bestimmten Bereichen des Lagers, nicht aber in anderen?
+    - Der Handscanner scannt die Barcodes, aber die gescannten Daten sind fehlerhaft oder unvollständig. Was kann ich tun, um das Problem zu lösen?
+    - Mein Handscanner zeigt keine Anzeige mehr an, obwohl er eingeschaltet ist. Wie kann ich das Problem beheben?
+    - Warum zeigt der Handscanner "Barcode nicht erkannt" an, obwohl der Barcode deutlich sichtbar ist?
+    - Der Handscanner reagiert nicht auf die Berührung des Bildschirms. Was soll ich tun, um die Bedienbarkeit wiederherzustellen?
+    - Warum gibt der Handscanner einen piependen Ton aus, aber scannt keinen Barcode?
+    - Mein Handscanner zeigt plötzlich eine unbekannte Fehlermeldung an. Wie kann ich mehr darüber erfahren und das Problem beheben?
+    - Warum funktioniert der Handscanner nicht mehr nach einem Software-Update? Kann ich die vorherige Version wiederherstellen?
+    - Mein Terminal startet sehr langsam. Was kann ich tun, um die Geschwindigkeit zu verbessern?
+    - Warum hängt sich mein Terminal ständig auf, wenn ich mehrere Anwendungen gleichzeitig benutze?
+    - Das Terminal zeigt eine Fehlermeldung an, die ich nicht verstehe. Wie kann ich das Problem diagnostizieren?
+    - Ich kann mich nicht bei meinem Terminal anmelden. Was sind mögliche Ursachen dafür?
+    - Warum funktioniert die Tastatur meines Terminals nicht richtig? Einige Tasten reagieren nicht.
+    - Mein Terminal zeigt einen schwarzen Bildschirm an und reagiert nicht mehr. Wie kann ich es neu starten?
+    - Der Bildschirm meines Terminals flackert immer wieder. Gibt es eine Lösung dafür?
+    - Warum werden die Anwendungen auf meinem Terminal so langsam ausgeführt?
+    - Das Terminal friert ein, wenn ich spezielle Anwendungen öffne. Was könnte die Ursache sein?
+    - Mein Terminal zeigt plötzlich eine leere Fehlermeldung an. Was bedeutet das?
+    - Warum dauert es so lange, bis mein Terminal hochfährt, nachdem ich es eingeschaltet habe?
+    - Ich habe Probleme mit der Auflösung meines Terminal-Bildschirms. Wie kann ich sie anpassen?
+    - Das Terminal stürzt ab, wenn ich versuche, bestimmte Dateien zu öffnen oder zu speichern. Was kann ich tun?
+    - Warum wird der Bildschirm meines Terminals manchmal schwarz, während ich arbeite?
+    - Mein Terminal zeigt einen "Out of Memory" Fehler an. Wie kann ich den Speicherplatz erweitern?
+    - Warum verliert mein Terminal gelegentlich die Netzwerkverbindung?
+    - Ich kann meine Dateien auf dem Terminal nicht finden. Wo sind sie gespeichert?
+    - Das Terminal zeigt unerwartete Pop-up-Fenster mit Fehlermeldungen an. Wie kann ich das Problem lösen?
+    - Warum reagiert mein Terminal nicht mehr auf Mausklicks?
+    - Mein Terminal fährt herunter, wenn ich versuche, große Dateien zu kopieren oder zu verschieben. Was könnte das Problem sein?
+    - Ich habe Probleme mit der Installation neuer Software auf meinem Terminal. Was sind mögliche Lösungen?
+    - Das Terminal zeigt eine Warnung an, dass die Festplatte voll ist. Wie kann ich Speicherplatz freigeben?
+    - Warum werden die Icons auf meinem Terminal-Bildschirm plötzlich nicht mehr angezeigt?
+    - Mein Terminal macht seltsame Geräusche, wenn es läuft. Sollte ich mir Sorgen machen?
+    - Warum funktioniert der Touchscreen meines Terminals nicht mehr richtig? Er reagiert nicht auf Berührungen.
+    - Das Terminal fährt sich regelmäßig herunter, ohne Vorwarnung. Was kann ich tun, um das zu verhindern?
+    - Mein Netzlaufwerk ist nicht erreichbar. Was soll ich tun?
+    - Warum kann ich nicht auf mein persönliches Laufwerk zugreifen?
+    - Das gemeinsame Laufwerk ist nicht verfügbar. Wer kann das überprüfen?
+    - Warum sind die Dateien auf dem Netzlaufwerk nicht aktuell?
+    - Mein lokales Laufwerk ist voll. Wie kann ich Speicherplatz freigeben?
+    - Kann jemand die Berechtigungen für mein Laufwerk überprüfen?
+    - Warum werden meine Dateien auf dem Netzlaufwerk nicht synchronisiert?
+    - Mein externes Laufwerk wird nicht erkannt. Was könnte das Problem sein?
+    - Kann ich meine Dateien von einem defekten Laufwerk wiederherstellen lassen?
+    - Warum funktioniert die Sicherung auf mein externes Laufwerk nicht?
+    - Das Laufwerk C: zeigt eine Fehlermeldung an. Wie kann ich das beheben?
+    - Kann jemand mein Laufwerk auf Malware überprüfen?
+    - Warum sind meine Dateien auf dem Laufwerk D: beschädigt?
+    - Mein Zugriff auf das Laufwerk E: ist gesperrt. Was soll ich tun?
+    - Warum dauert das Kopieren von Dateien auf das Netzlaufwerk so lange?
+    - Kann jemand den Speicherplatz auf meinem Laufwerk überprüfen?
+    - Mein Laufwerk F: wird als offline angezeigt. Wie kann ich es wieder online bringen?
+    - Warum kann ich nicht auf das Laufwerk G: zugreifen, obwohl es verbunden ist?
+    - Die Dateien auf dem Laufwerk H: sind verschwunden. Kann das wiederhergestellt werden?
+    - Warum funktioniert das automatische Backup auf mein Laufwerk nicht?
+    - Mein Laufwerk J: ist verschlüsselt. Wie kann ich darauf zugreifen?
+    - Warum sind meine Dateien auf dem Laufwerk K: nicht lesbar?
+    - Kann jemand mein Laufwerk auf defekte Sektoren überprüfen?
+    - Warum wird das Laufwerk L: nicht erkannt, wenn ich es anschließe?
+    - Die Übertragungsgeschwindigkeit auf das Netzlaufwerk ist sehr langsam. Was kann ich tun?
+    - Warum kann ich keine Dateien von meinem Laufwerk M: auf das Netzlaufwerk verschieben?
+    - Kann jemand das Laufwerk N: auf veraltete Treiber überprüfen?
+    - Warum werden meine Dateien auf dem Laufwerk O: nicht synchronisiert?
+    - Mein Laufwerk P: zeigt unerklärliche Dateien an. Kann das überprüft werden?
+    - Warum ist das Laufwerk Q: nicht mehr im Netzwerk verfügbar?
+    - Kann jemand mein Laufwerk R: auf unerwünschte Programme überprüfen?
+    - Warum ist das Laufwerk S: beschädigt und kann nicht formatiert werden?
+    - Mein Laufwerk T: lässt sich nicht mehr öffnen. Was könnte die Ursache sein?
+    - Warum ist das Laufwerk U: verschlüsselt und wie kann ich darauf zugreifen?
+    - Kann jemand mein Laufwerk V: auf Viren überprüfen und bereinigen?
+    - Warum wird das Laufwerk W: nicht erkannt, wenn ich es einschalte?
+    - Mein Laufwerk X: zeigt plötzlich keine Dateien mehr an. Kann das untersucht werden?
+    - Warum sind meine Dateien auf dem Laufwerk Y: nicht mehr lesbar?
+    - Kann jemand mein Laufwerk Z: auf Hardwarefehler überprüfen und reparieren?
+    - Ich kann nicht auf den Ordner "Projekte" zugreifen. Was könnte das Problem sein?
+    - Warum erhalte ich eine Zugriffsverweigerung für den Ordner "Dokumente"?
+    - Der Ordner "Präsentationen" lässt sich nicht öffnen. Kann das überprüft werden?
+    - Ich bekomme eine Fehlermeldung, wenn ich versuche, auf den Ordner "Berichte" zuzugreifen.
+    - Warum kann ich nicht auf den freigegebenen Ordner "Abteilung XY" zugreifen?
+    - Kann jemand meine Berechtigungen für den Ordner "Personal" überprüfen?
+    - Der Ordner "Archiv" ist verschwunden. Kann das wiederhergestellt werden?
+    - Warum sind einige Dateien im Ordner "Projekte" gesperrt und nicht zugänglich?
+    - Ich kann nicht auf den Ordner "Abrechnungen" auf dem Netzlaufwerk zugreifen. Was kann ich tun?
+    - Der Ordner "E-Mails" auf meinem Desktop lässt sich nicht öffnen. Wie kann das behoben werden?
+    - Warum zeigt der Ordner "Downloads" eine leere Liste an, obwohl ich Dateien gespeichert habe?
+    - Kann jemand den Ordner "Verträge" auf beschädigte Dateien überprüfen?
+    - Der Ordner "Fotos" lässt sich nicht mehr öffnen, seit ich mein Betriebssystem aktualisiert habe.
+    - Warum kann ich den Ordner "Prüfungsunterlagen" nicht öffnen, obwohl ich die Berechtigungen habe?
+    - Kann jemand meinen Zugriff auf den Ordner "Protokolle" wiederherstellen?
+    - Der Ordner "Projektdokumente" ist gesperrt. Kann das Problem behoben werden?
+    - Warum zeigt der Ordner "Backup" eine Fehlermeldung an, wenn ich versuche, ihn zu öffnen?
+    - Kann jemand den Ordner "Datenbank" auf veraltete Dateien überprüfen und bereinigen?
+    - Der Ordner "Finanzen" lässt sich seit gestern nicht mehr öffnen. Was könnte die Ursache sein?
+    - Warum sind einige Dateien im Ordner "Rechnungswesen" nicht lesbar?
+    - Ich kann nicht auf den freigegebenen Ordner "Projekt XY" zugreifen, obwohl er mir zugewiesen wurde.
+    - Kann jemand meine Berechtigungen für den Ordner "Entwürfe" aktualisieren?
+    - Der Ordner "Supporttickets" auf dem Server ist nicht zugänglich. Kann das untersucht werden?
+    - Warum zeigt der Ordner "Videos" keine Dateien an, obwohl ich sie gestern gespeichert habe?
+    - Kann jemand den Ordner "Werbung" auf fehlende Dateien überprüfen und wiederherstellen?
+    - Der Ordner "Vorlagen" lässt sich seit dem letzten Windows-Update nicht mehr öffnen.
+    - Warum erhalte ich eine Zugriffsverweigerung für den Ordner "Einstellungen" auf meinem Desktop?
+    - Kann jemand den Ordner "Handbücher" auf beschädigte Dateien überprüfen und reparieren?
+    - Der Ordner "Aufträge" lässt sich nicht mehr öffnen, seit ich mein Passwort geändert habe.
+    - Warum kann ich den Ordner "Dokumentation" nicht mehr finden, obwohl er gestern noch da war?
+    - Kann jemand den Ordner "Lizenzen" auf veraltete Dateien überprüfen und bereinigen?
+    - Der Ordner "Programme" zeigt leere Unterordner an, obwohl dort Dateien sein sollten.
+    - Warum zeigt der Ordner "Software" eine Fehlermeldung an, wenn ich versuche, ihn zu öffnen?
+    - Kann jemand meinen Zugriff auf den Ordner "Handel" wiederherstellen?
+    - Der Ordner "Einkäufe" lässt sich seit gestern nicht mehr öffnen. Was könnte die Ursache sein?
+    - Warum sind einige Dateien im Ordner "Vertrieb" nicht mehr zugänglich?
+    - Ich kann nicht auf den Ordner "Produkte" zugreifen, um die Preisliste zu aktualisieren.
+    - Kann jemand meinen Zugriff auf den Ordner "Marketing" wiederherstellen?
+    - Der Ordner "Logistik" zeigt eine Fehlermeldung an, wenn ich versuche, ihn zu öffnen.
+    - Warum ist der Ordner "IT-Dokumentation" nicht mehr sichtbar, obwohl er gestern da war?
+    - Kann jemand den Ordner "Kundendienst" auf beschädigte Dateien überprüfen und reparieren?
+    - Der Ordner "Verwaltung" ist leer, obwohl er gestern noch Dateien enthielt. Was ist passiert?
+    - Warum sind einige Dateien im Ordner "Projektpläne" verschwunden?
+    - Kann jemand den Ordner "Personalakten" auf beschädigte Dateien überprüfen und wiederherstellen?
+    - Der Ordner "Besprechungen" lässt sich seit dem letzten Netzwerkproblem nicht mehr öffnen.
+    - Warum sind einige Dateien im Ordner "Forschung" gesperrt und nicht zugänglich?
+    - Mein PC startet nicht. Was könnte das Problem sein?
+    - Warum fährt mein Computer nicht hoch?
+    - Ich kann meinen Rechner nicht einschalten. Was soll ich tun?
+    - Der Drucker funktioniert nicht. Könnte jemand helfen?
+    - Warum druckt der Drucker nicht mehr?
+    - Mein Drucker ist kaputt. Wie kann ich das beheben?
+    - Ich habe ein Problem mit meinem PC. Kann mir jemand helfen?
+    - Der Computer zeigt einen Fehler an. Was kann ich tun?
+    - Ich brauche Hilfe bei Hardware-Fragen.
+    - Wer kann mir bei Hardware-Problemen helfen?
+    - Ich habe Fragen zu meinem PC. An wen kann ich mich wenden?
+    - Kann mir jemand bei meinen PC-Problemen helfen?
+    - Ich habe Probleme mit einer Software. Was kann ich tun?
+    - Wer kann mir bei Software-Problemen helfen?
+    - Mein Handy funktioniert nicht richtig. Was kann ich tun?
+    - Warum geht mein Mobiltelefon nicht?
+    - Mein Smartphone hat ein Problem. Kann mir jemand helfen?
+    - Ich kann nicht telefonieren. Was soll ich tun?
+    - Mein Telefon funktioniert nicht. Was könnte das Problem sein?
+    - VPN verbindet nicht. Was kann ich machen?
+    - Warum funktioniert mein VPN nicht?
+    - Die Firewall blockiert den Zugriff. Was soll ich tun?
+    - Ich habe ein Problem mit der Firewall. Kann mir jemand helfen?
+    - Warum startet mein Laptop nicht mehr?
+    - Was tun, wenn der Rechner nicht hochfährt?
+    - Hilfe, mein Drucker druckt keine Seiten mehr.
+    - Kann mir jemand bei Druckerproblemen helfen?
+    - Was könnte der Grund sein, dass der Drucker nicht druckt?
+    - Ich kann meinen PC nicht einschalten. Was tun?
+    - Mein Computer bleibt beim Start hängen. Was soll ich machen?
+    - Hilfe bei PC-Startproblemen gesucht. Was tun?
+    - Der Bildschirm bleibt schwarz. Wer kann mir helfen?
+    - Warum zeigt der Monitor nichts an?
+    - Mein Handy geht nicht an. Was kann ich tun?
+    - Hilfe, mein Mobiltelefon startet nicht mehr.
+    - Warum kann ich mein Smartphone nicht benutzen?
+    - Der VPN-Zugang funktioniert nicht. Was kann ich tun?
+    - Warum komme ich nicht ins VPN?
+    - Ich brauche Unterstützung bei Firewall-Problemen.
+    - Die Firewall blockiert alle Verbindungen. Was tun?
+    - Wer kann mir bei VPN-Problemen helfen?
+    - Ich habe ein Software-Problem. Wer kann helfen?
+    - PC startet nicht.
+    - Der PC zeigt einen Bluescreen an. Was kann ich tun?
+    - Mein Laptop ist extrem langsam. Kann jemand helfen?
+    - Warum stürzt mein Computer immer wieder ab?
+    - Mein Drucker zieht das Papier schief ein. Was tun?
+    - Warum gibt mein Computer kein Audio aus?
+    - Mein Bildschirm flackert. Kann jemand das reparieren?
+    - Der Akku meines Laptops lädt nicht richtig. Was tun?
+    - Warum funktioniert die Touchpad-Funktion nicht?
+    - Ich habe Probleme mit der Internetverbindung meines PCs. Wer kann helfen?
+    - Mein Computer erkennt externe Festplatten nicht. Was tun?
+    - Der USB-Anschluss meines PCs funktioniert nicht. Kann das behoben werden?
+    - Ich kann mich nicht mit dem Remote-Desktop verbinden. Was soll ich tun?
+    - Warum funktioniert die Remote-Desktop-Verbindung nicht?
+    - Mein Remote-Desktop zeigt eine Fehlermeldung an. Wie kann ich das beheben?
+    - Der Remote-Desktop ist sehr langsam. Gibt es eine Lösung dafür?
+    - Kann mir jemand bei Remote-Desktop-Problemen helfen?
+    - Ich kann keine Dateien über den Remote-Desktop hochladen. Was kann ich tun?
+    - Warum kann ich keine Drucker über den Remote-Desktop verwenden?
+    - Der Remote-Desktop stürzt regelmäßig ab. Was könnte die Ursache sein?
+    - Ich habe Probleme mit der Audioübertragung über den Remote-Desktop. Wer kann helfen?
+    - Mein Bildschirm wird über den Remote-Desktop nicht richtig angezeigt. Was kann ich tun?
+    - Warum ist die Verbindung zum Remote-Desktop so instabil?
+    - Ich habe Schwierigkeiten, auf bestimmte Anwendungen über den Remote-Desktop zuzugreifen. Wie kann das behoben werden?
+    - Die Tastaturbefehle funktionieren nicht richtig über den Remote-Desktop. Kann jemand unterstützen?
+    - Warum kann ich keine Videos flüssig über den Remote-Desktop anzeigen?
+    - Der Remote-Desktop zeigt eine Verbindungszeitüberschreitung an. Was soll ich tun?
+    - Ich kann mich nicht richtig abmelden oder trennen vom Remote-Desktop. Gibt es eine Lösung dafür?
+    - Warum sind die Bildschirmeinstellungen über den Remote-Desktop begrenzt?
+    - Ich benötige Zugriff auf lokale Dateien über den Remote-Desktop. Wie stelle ich das ein?
+    - Der Remote-Desktop zeigt eine schwarze Bildschirmfläche an. Was könnte das Problem sein?
+    - Warum werden keine Dateien über den Remote-Desktop kopiert oder verschoben?
+    - Kann jemand helfen, wenn ich Probleme mit der Maussteuerung über den Remote-Desktop habe?
+    - Ich erhalte eine Fehlermeldung "Remote-Desktop kann keine Verbindung herstellen". Was kann ich tun?
+    - Der Remote-Desktop zeigt eine unscharfe Bildqualität an. Gibt es eine Möglichkeit, das zu verbessern?
+    - Warum kann ich keine Druckaufträge über den Remote-Desktop senden?
+    - Mein Remote-Desktop zeigt eine Meldung "Nicht genügend Ressourcen". Wie kann ich das beheben?
+    - Ich habe Probleme, meinen lokalen Drucker über den Remote-Desktop zu konfigurieren. Wer kann unterstützen?
+    - Warum funktioniert die Audioübertragung über den Remote-Desktop nicht stabil?
+    - Der Remote-Desktop verbindet sich nicht zu meinem lokalen Drucker. Was soll ich tun?
+    - Kann jemand bei der Einstellung der Bildschirmauflösung über den Remote-Desktop helfen?
+    - Mein Bildschirm bleibt schwarz. Was kann ich tun?
+    - Warum zeigt mein Bildschirm nichts an?
+    - Der Bildschirm zeigt keine Reaktion. Was könnte das Problem sein?
+    - Kann jemand helfen, meinen Bildschirm einzurichten?
+    - Ich habe Probleme mit der Bildschirmauflösung. Wie kann ich das ändern?
+    - Warum flackert mein Bildschirm?
+    - Der Bildschirm zeigt nur eine Fehlermeldung an. Was soll ich tun?
+    - Mein Bildschirm ist eingefroren. Gibt es eine Lösung dafür?
+    - Warum zeigt mein Bildschirm Streifen oder Artefakte an?
+    - Kann mir jemand bei der Kalibrierung meines Bildschirms helfen?
+    - Der Bildschirm schaltet sich plötzlich aus. Was könnte die Ursache sein?
+    - Warum ist mein Bildschirm dunkel, obwohl der Computer eingeschaltet ist?
+    - Ich sehe nichts auf meinem Bildschirm nach dem Hochfahren. Was soll ich tun?
+    - Mein Bildschirm bleibt leer, wenn ich den Computer starte. Wie kann ich das beheben?
+    - Warum ist die Bildschirmanzeige verzerrt oder unscharf?
+    - Der Bildschirm zeigt keine Farben korrekt an. Gibt es eine Lösung dafür?
+    - Mein Bildschirm zeigt eine niedrige Auflösung an. Wie kann ich das ändern?
+    - Warum zeigt mein Bildschirm "Kein Signal" an?
+    - Kann mir jemand bei der Bildschirmhelligkeit helfen?
+    - Mein Bildschirm bleibt beim Hochfahren hängen. Was kann ich tun?
+    - Warum hat mein Bildschirm tote Pixel?
+    - Der Bildschirm zeigt falsche Farben an. Wie kann ich das korrigieren?
+    - Ich habe Probleme mit der Bildschirmschärfe. Gibt es eine Möglichkeit, das zu verbessern?
+    - Warum zeigt mein Bildschirm intermittierende Streifen an?
+    - Mein Bildschirm zeigt ungewöhnliche Muster oder Formen. Was könnte das Problem sein?
+    - Der Bildschirm wechselt unerwartet in den Energiesparmodus. Kann das behoben werden?
+    - Warum wird mein Bildschirm nicht erkannt, wenn ich ihn anschließe?
+    - Mein Bildschirm zeigt Ränder oder schwarze Balken an. Wie kann ich das ändern?
+    - Kann jemand bei der Einstellung der Bildschirmfrequenz helfen?
+    - Warum zeigt mein Bildschirm ein Flimmern an?
+    - Der Bildschirm zeigt unerklärliche Symbole oder Zeichen. Was könnte das bedeuten?
+    - Mein Bildschirm wechselt die Farben plötzlich. Gibt es eine Lösung dafür?
+    - Warum zeigt mein Bildschirm eine hohe Latenzzeit bei der Anzeige an?
+     - Mein Server ist offline. Wie kann ich ihn wieder online bringen?
+    - Warum ist der Server langsam?
+    - Ich kann nicht auf den Server zugreifen. Was soll ich tun?
+    - Der Server zeigt eine Fehlermeldung an. Wie kann ich das Problem beheben?
+    - Mein Server startet nicht mehr. Was könnte die Ursache sein?
+    - Warum funktioniert die Serveranwendung nicht wie erwartet?
+    - Ich habe Probleme mit der Netzwerkverbindung zum Server. Wie kann ich das prüfen?
+    - Der Server zeigt unerwartete Abstürze. Was könnte die Ursache sein?
+    - Kann jemand beim Upgrade des Servers helfen?
+    - Warum gibt es Verbindungsprobleme mit dem Server?
+    - Ich benötige Unterstützung bei der Konfiguration des Servers. Wer kann helfen?
+    - Der Server zeigt Überlastungsprobleme. Gibt es eine Lösung dafür?
+    - Warum gibt es Probleme mit der Server-Sicherheit?
+    - Ich benötige Hilfe beim Datenbankzugriff auf dem Server.
+    - Der Server führt die geplanten Aufgaben nicht aus. Was soll ich tun?
+    - Warum ist der Server nicht für Benutzer zugänglich?
+    - Ich habe Probleme mit der Server-Backup-Routine. Wie kann ich das überprüfen?
+    - Der Server zeigt Hardwarefehler an. Wie kann ich diese diagnostizieren?
+    - Warum gibt es Probleme mit der Server-Softwarekompatibilität?
+    - Mein Server zeigt eine hohe Auslastung an. Gibt es Möglichkeiten zur Optimierung?
+    - Der Server benötigt ein Softwareupdate. Wie kann ich das durchführen?
+    - Warum sind bestimmte Dienste auf dem Server nicht verfügbar?
+    - Ich habe Probleme mit der Server-Performance. Wie kann ich das analysieren?
+    - Der Server zeigt unerklärliche Protokolldateifehler. Was könnte die Ursache sein?
+    - Warum sind die Serverlogs voller Fehlermeldungen?
+    - Ich benötige Unterstützung beim Hochfahren des Servers nach einem Ausfall.
+    - Der Server hat Probleme mit der Speicherkapazität. Wie kann ich das erweitern?
+    - Warum gibt es Netzwerkstabilitätsprobleme auf dem Server?
+    - Mein Server zeigt Probleme mit der Datensicherung an. Wie kann ich das überprüfen?
+    - Der Server benötigt eine Wartung. Wie kann ich das planen und durchführen?
+    - Warum sind einige Anwendungen auf dem Server nicht verfügbar?
+    - Ich benötige Hilfe beim Konfigurieren von Benutzerberechtigungen auf dem Server.
+    - Der Server zeigt Fehler bei der Datenbankabfrage an. Wie kann ich das beheben?
+    - Warum sind die Serverdienste nach einem Neustart nicht gestartet?
+    - Mein Server benötigt ein Patch-Management. Wie kann ich das verwalten?
+    - Warum gibt es Probleme mit der Remote-Zugriffskonfiguration auf dem Server?
+    - Ich habe Probleme mit der Virtualisierungsumgebung auf dem Server. Wie kann ich das beheben?
+    - Mein Etikettendrucker druckt nicht mehr. Was kann ich tun?
+    - Der Etikettendrucker zeigt eine Fehlermeldung an. Wie kann ich das Problem lösen?
+    - Warum funktioniert mein Etikettendrucker nicht mehr?
+    - Ich habe Probleme beim Drucken mit dem Etikettendrucker. Können Sie mir helfen?
+    - Der Etikettendrucker zieht das Etikett schief ein. Wie kann ich das beheben?
+    - Kann mir jemand bei meinem defekten Etikettendrucker helfen?
+    - Mein Etikettendrucker druckt unleserliche Etiketten. Was soll ich tun?
+    - Warum sind die Etiketten meines Druckers verschmiert?
+    - Der Etikettendrucker druckt nur leere Etiketten aus. Was könnte das Problem sein?
+    - Ich kann keine Verbindung zu meinem Etikettendrucker herstellen. Was soll ich tun?
+    - Mein Etikettendrucker macht komische Geräusche beim Drucken. Ist das normal?
+    - Der Etikettendrucker zeigt keine Reaktion mehr. Was kann ich tun, um ihn wieder zum Laufen zu bringen?
+    - Warum druckt der Etikettendrucker plötzlich sehr langsam?
+    - Kann ich Etiketten auf einem anderen Etikettendrucker drucken, wenn meiner nicht funktioniert?
+    - Ich benötige Hilfe beim Austausch der Etikettenrolle in meinem Drucker. Wie mache ich das?
+    - Mein Etikettendrucker gibt Fehlermeldungen aus, aber ich weiß nicht, was sie bedeuten. Können Sie helfen?
+    - Die Software für meinen Etikettendrucker funktioniert nicht richtig. Was kann ich tun, um sie zu reparieren?
+    - Der Etikettendrucker bleibt hängen, wenn ich versuche zu drucken. Was könnte die Ursache sein?
+    - Warum druckt mein Etikettendrucker nur teilweise die Etiketten aus?
+    - Ich habe Schwierigkeiten, die Etikettenrolle richtig einzulegen. Gibt es eine Anleitung dafür?
+    - Kann ich meinen Etikettendrucker neu kalibrieren, um Druckprobleme zu beheben?
+    - Mein Etikettendrucker zeigt keine Anzeige mehr an. Wie kann ich überprüfen, ob er noch funktioniert?
+    - Der Etikettendrucker ist plötzlich sehr laut. Sollte ich mir Sorgen machen?
+    - Warum funktioniert die Verbindung zwischen meinem Computer und dem Etikettendrucker nicht mehr?
+    - Ich brauche Unterstützung bei der Installation meines neuen Etikettendruckers. Können Sie helfen?
+    - Mein PC startet nicht mehr. Was könnte das Problem sein?
+    - Warum fährt mein Computer nicht hoch?
+    - Der Lüfter meines PCs läuft ständig auf Hochtouren. Was kann ich tun?
+    - Mein PC stürzt ab, wenn ich bestimmte Anwendungen öffne. Was könnte die Ursache sein?
+    - Ich höre seltsame Geräusche aus meinem PC. Sollte ich mir Sorgen machen?
+    - Mein Monitor zeigt kein Bild an, wenn der PC eingeschaltet ist. Was kann ich tun?
+    - Warum erkennt mein PC meine externe Festplatte nicht mehr?
+    - Der USB-Anschluss an meinem PC funktioniert nicht mehr. Wie kann ich das Problem lösen?
+    - Mein PC reagiert sehr langsam, besonders beim Starten von Anwendungen. Was kann ich tun, um ihn zu beschleunigen?
+    - Der Bildschirm meines Laptops flackert manchmal. Was könnte die Ursache sein?
+    - Ich möchte meinen Arbeitsspeicher (RAM) in meinem PC aufrüsten. Wie wähle ich die richtigen Module aus?
+    - Kann ich die Grafikkarte in meinem PC selbst austauschen? Wie gehe ich dabei vor?
+    - Mein PC zeigt "CPU overheat" (Prozessor überhitzt) an. Soll ich den PC sofort ausschalten?
+    - Wie kann ich meinen PC reinigen, um Staubablagerungen zu entfernen?
+    - Mein PC bleibt beim Booten an einem bestimmten Punkt hängen. Was kann ich tun, um das Problem zu beheben?
+    - Der Netzschalter an meinem PC funktioniert nicht mehr richtig. Kann ich ihn reparieren oder austauschen?
+    - Mein PC gibt kein Tonsignal mehr aus, wenn ich versuche zu starten. Was kann ich tun?
+    - Kann ich eine SSD-Festplatte in meinen PC einbauen, um die Leistung zu verbessern?
+    - Der Akku meines Laptops hält nur noch sehr kurz. Sollte ich ihn austauschen?
+    - Mein PC macht beim Hochfahren Pieptöne. Was bedeuten diese Töne?
+    - Der CD/DVD-Laufwerk meines PCs öffnet sich nicht mehr. Wie kann ich das Laufwerk öffnen?
+    - Mein PC zeigt "Blue Screen" (Blauer Bildschirm) Fehlermeldungen an. Was bedeuten sie?
+    - Ich habe Probleme mit der WLAN-Verbindung meines PCs. Wie kann ich das beheben?
+    - Mein PC ist plötzlich extrem laut. Was könnte die Ursache sein?
+    - Kann ich meinen PC selbst auf Viren überprüfen? Welche Tools sind dafür empfehlenswert?
+    - Der Startknopf meines PCs reagiert nicht mehr. Was kann ich tun, um ihn zu reparieren?
+    - Wie kann ich die Treiber meines PCs aktualisieren, um die Leistung zu optimieren?
+    - RDS Farm probleme
+    - Vritueller PC nicht erreichbar
+    - Die RDS Farm ist nicht erreichbar. Was könnte das Problem sein?
+    - Warum kann ich mich nicht mehr bei der RDS Farm anmelden?
+    - Es gibt Probleme beim Verbinden mit der RDS Farm. Wie kann ich das lösen?
+    - Warum sind die RDS Sitzungen so langsam?
+    - Die Performance der Anwendungen in der RDS Farm ist schlecht. Kann das verbessert werden?
+    - Ich kann keine Verbindung zur RDS Farm herstellen. Was soll ich tun?
+    - Wie kann ich die Anzahl der verfügbaren Sitzungen in der RDS Farm erhöhen?
+    - Warum werden RDS Sitzungen unerwartet getrennt?
+    - Kann ich meine Drucker in der RDS Farm verwenden? Wie stelle ich das ein?
+    - Die Bildschirmauflösung in der RDS Farm ist falsch. Kann ich das ändern?
+    - Wie sichere ich meine Daten in der RDS Farm?
+    - Warum sind bestimmte Anwendungen in der RDS Farm nicht verfügbar?
+    - Ich benötige Zugriff auf eine spezielle Anwendung in der RDS Farm. Wie erhalte ich diesen?
+    - Wie kann ich eine Datei von meinem lokalen Computer in die RDS Farm übertragen?
+    - Kann ich Audio in der RDS Farm verwenden? Wie stelle ich das ein?
+    - Warum funktioniert die Tastatureingabe in der RDS Farm nicht korrekt?
+    - Die RDS Farm zeigt Fehlermeldungen an. Was bedeuten diese?
+    - Mein virtueller PC ist nicht erreichbar. Was soll ich tun?
+    - Warum kann ich mich nicht mehr bei meinem virtuellen PC anmelden?
+    - Der virtuelle PC zeigt "Connection Timeout" Fehlermeldungen an. Wie kann ich das beheben?
+    - Wie kann ich die Leistung meines virtuellen PCs verbessern?
+    - Mein virtueller PC reagiert nicht mehr. Soll ich ihn neu starten?
+    - Warum ist mein virtueller PC so langsam?
+    - Kann ich meine Daten auf meinem virtuellen PC sichern? Wie mache ich das?
+    - Der Bildschirm meines virtuellen PCs bleibt schwarz. Was kann ich tun?
+    - Warum sind bestimmte Anwendungen auf meinem virtuellen PC nicht verfügbar?
+    - Ich benötige Zugriff auf spezielle Ressourcen auf meinem virtuellen PC. Wie erhalte ich diesen?
+    - Wie kann ich die Netzwerkverbindung meines virtuellen PCs überprüfen?
+    - Kann ich die Speicherkapazität meines virtuellen PCs erweitern? Wie mache ich das?
+    - Warum ist die virtuelle Maschine nicht erreichbar, obwohl sie gestartet ist?
+    - Der virtuelle PC zeigt "VM Not Found" Fehler an. Was bedeutet das?
+    - Kann ich meinen virtuellen PC neu konfigurieren, um die Performance zu verbessern?
+    - Warum werden Änderungen auf meinem virtuellen PC nicht gespeichert?
+    - Der virtuelle PC stürzt ab, wenn ich bestimmte Anwendungen öffne. Was könnte die Ursache sein?
+    - Kann ich meinen virtuellen PC auf Viren überprüfen? Welche Tools sind dafür geeignet?
+    - Wie kann ich meinen virtuellen PC vor unbefugtem Zugriff schützen?
+    - Der virtuelle PC zeigt "Disk Space Full" Warnungen an. Wie kann ich Speicher freigeben?
+    - Warum ist die Verbindung zu meinem virtuellen PC instabil?
+    - Welches Zubehör ist für meinen Laptop sinnvoll?
+    - Welche externe Festplatte könnten Sie empfehlen?
+    - Benötige ich einen zusätzlichen Monitor für mein Setup?
+    - Welche Tastatur ist gut für Gaming geeignet?
+    - Können Sie mir eine empfehlenswerte Maus für Grafikdesign empfehlen?
+    - Welche Bluetooth-Geräte sind mit meinem Laptop kompatibel?
+    - Gibt es spezielles Zubehör für schnelleres Laden meines Smartphones?
+    - Welche Arten von USB-Hubs sind für mehr Anschlüsse empfehlenswert?
+    - Welche Webcam ist für Videokonferenzen am besten geeignet?
+    - Brauche ich einen zusätzlichen Speicherstick für meine Daten?
+    - Welches Headset ist gut für virtuelle Meetings?
+    - Kann ich eine Empfehlung für einen ergonomischen Laptop-Ständer bekommen?
+    - Welche Drucker sind besonders kompatibel mit Mac-Betriebssystemen?
+    - Brauche ich einen speziellen Adapter für meinen neuen Bildschirm?
+    - Welche Art von Kabeln benötige ich für die Verbindung meines Computers mit einem Fernseher?
+    - Kann ich eine Empfehlung für einen guten Bildschirmschutz für mein Laptop-Display bekommen?
+    - Welche Laptop-Taschen bieten einen guten Schutz und Komfort?
+    - Welche Art von Kühlung ist gut für meinen Gaming-PC?
+    - Gibt es eine spezielle Halterung für meinen Laptop im Auto?
+    - Welche WLAN-Adapter sind besonders schnell für mein Heimnetzwerk?
+    - Wie kann ich die Reichweite meines WLANs verbessern?
+    - Welchen Router würden Sie für eine schnelle Internetverbindung empfehlen?
+    - Wie kann ich mein Heimnetzwerk sicherer machen?
+    - Welche WLAN-Standards sind derzeit die besten?
+    - Kann ich mein WLAN-Passwort ändern, ohne den Router zurückzusetzen?
+    - Wie kann ich die Geschwindigkeit meiner Internetverbindung testen?
+    - Welche Firewall-Software ist gut für meinen Heim-PC?
+    - Brauche ich einen VPN-Dienst für sicheres Surfen in öffentlichen WLANs?
+    - Welche Art von Ethernet-Kabel ist am besten für schnelle Downloads?
+    - Kann ich meine IP-Adresse ändern, um anonym im Internet zu surfen?
+    - Welche Art von Netzwerkkarte ist gut für Spiele und Streaming?
+    - Wie richte ich einen Gastzugang in meinem WLAN-Netzwerk ein?
+    - Welcher DNS-Dienst ist schneller und sicherer?
+    - Wie kann ich die Bandbreite meines WLANs für bestimmte Geräte begrenzen?
+    - Welche Router sind besonders gut für große Wohnungen oder Häuser?
+    - Kann ich mein Heimnetzwerk so einrichten, dass bestimmte Websites blockiert werden?
+    - Wie kann ich mein WLAN-Passwort zurücksetzen, wenn ich es vergessen habe?
+    - Welche Powerline-Adapter sind gut für die Erweiterung meines Netzwerks über Stromleitungen?
+    - Gibt es spezielle Antennen für meinen Router, um die Signalstärke zu erhöhen?
+    - Wie kann ich meine Netzwerkeinstellungen für optimale Leistung konfigurieren?
+    - Wie kann ich den Zugriff auf bestimmte Netzwerkordner einschränken?
+    - Welche Maßnahmen sollten wir ergreifen, um unsere Netzwerksicherheit zu verbessern?
+    - Wie können wir sicherstellen, dass unsere Backup-Lösung regelmäßig funktioniert?
+    - Können Sie mir helfen, eine Schulung für Mitarbeiter zur IT-Sicherheit zu organisieren?
+    - Was ist der Prozess für die Bereitstellung neuer Software auf den Arbeitsstationen?
+    - Gibt es Möglichkeiten, die Ladezeiten unserer internen Anwendungen zu verbessern?
+    - Welche Richtlinien haben wir für die Verwendung persönlicher Geräte im Firmennetzwerk?
+    - Kann ich eine Liste der aktuellen IT-Hardware und ihrer Wartungszyklen erhalten?
+    - Welche Maßnahmen ergreifen wir, um uns vor Phishing-Angriffen zu schützen?
+    - Wie können wir die Reaktionszeiten bei Supportanfragen für kritische Probleme verbessern?
+    - Können Sie uns bei der Implementierung einer neuen Datenbanklösung unterstützen?
+    - Welche Sicherheitsvorkehrungen sollten wir bei der Nutzung öffentlicher WLANs treffen?
+    - Welche Tools empfehlen Sie für die Überwachung der Netzwerkaktivität?
+    - Gibt es bevorstehende Aktualisierungen oder Wartungsfenster für unsere IT-Systeme?
+    - Wie können wir sicherstellen, dass unsere Daten auf den Cloud-Speicherdiensten geschützt sind?
+    - Welche Maßnahmen ergreifen wir, um die Datenintegrität auf unseren Servern sicherzustellen?
+    - Wie kann ich Benutzerkonten auf unseren Systemen sicher löschen?
+    - Welche IT-Richtlinien haben wir für die Datensicherung und Wiederherstellung?
+    - Können Sie mir helfen, meine E-Mail-Signatur so einzurichten, dass sie der Firmenrichtlinie entspricht?
+    - Welche Maßnahmen ergreifen wir, um unsere VoIP-Telefonanlage vor Cyber-Angriffen zu schützen?
+    - Meine Tastatur funktioniert nicht richtig. Was kann ich tun?
+    - Warum reagiert meine Tastatur nicht mehr?
+    - Die Tasten auf meiner Tastatur funktionieren nicht ordnungsgemäß.
+    - Kann ich eine neue Tastatur erhalten? Meine ist defekt.
+    - Wie kann ich die Tastaturbelegung ändern?
+    - Welche Tastenkombinationen gibt es für Sonderzeichen?
+    - Meine Tastatur ist verschmutzt. Wie reinige ich sie richtig?
+    - Wie kann ich die Einstellungen für meine Tastatur zurücksetzen?
+    - Kann ich eine drahtlose Tastatur mit meinem Arbeitsplatz verbinden?
+    - Die Tastatur meiner Dockingstation funktioniert nicht. Was soll ich tun?
+    - Warum gibt es eine Verzögerung zwischen dem Drücken einer Taste und der Reaktion auf dem Bildschirm?
+    - Kann ich eine ergonomische Tastatur für meinen Arbeitsplatz beantragen?
+    - Warum funktioniert die Hintergrundbeleuchtung meiner Tastatur nicht mehr?
+    - Gibt es Möglichkeiten, die Schreibgeschwindigkeit meiner Tastatur zu verbessern?
+    - Wie kann ich die Treiber für meine Tastatur aktualisieren?
+    - Welche Tastatur ist kompatibel mit meinem aktuellen Laptop-Modell?
+    - Ich benötige eine Tastatur mit einem speziellen Layout. Können Sie mir helfen?
+    - Wie kann ich die Funktionstasten (F1-F12) auf meiner Tastatur verwenden?
+    - Kann ich eine zusätzliche Tastatur für mein Home-Office beantragen?
+    - Wie kann ich die Einstellungen für die Tastaturbeleuchtung ändern?
+    - Meine Tastatur reagiert nur sporadisch. Was könnte die Ursache sein?
+    - Warum funktionieren bestimmte Tasten auf meiner Tastatur nicht mehr?
+    - Kann ich meine Tastatur mit mehreren Geräten gleichzeitig verbinden?
+    - Die Tasten auf meiner Tastatur sind klebrig. Wie reinige ich sie richtig?
+    - Welche Tastaturlayouts sind in unserer Firma standardmäßig verfügbar?
+    - Wie kann ich die Tastatursprache auf meinem Computer ändern?
+    - Ich kann mich nicht mit dem VPN verbinden. Was soll ich tun?
+    - Wie kann ich meine Homeoffice-Software aktualisieren?
+    - Mein Internet ist im Homeoffice sehr langsam. Gibt es Lösungen?
+    - Kann ich meinen Bürocomputer mit nach Hause nehmen?
+    - Wie richte ich eine sichere Verbindung zum Firmennetzwerk ein?
+    - Welche Software benötige ich für das Arbeiten im Homeoffice?
+    - Gibt es Richtlinien oder Vorschriften für das Arbeiten von zu Hause aus?
+    - Wie kann ich meinen Bildschirm zu Hause effizient nutzen?
+    - Ich habe Probleme mit der Sprachqualität bei Videokonferenzen. Was kann ich tun?
+    - Welche Sicherheitsmaßnahmen sollte ich im Homeoffice beachten?
+    - Kann ich meine Bürodaten sicher von zu Hause aus zugreifen?
+    - Wie kann ich meine Arbeitszeit im Homeoffice erfassen?
+    - Meine Homeoffice-Software stürzt ständig ab. Was kann ich tun?
+    - Welche Druckermöglichkeiten habe ich für mein Homeoffice?
+    - Kann ich meinen Drucker mit meinem Heimnetzwerk verbinden?
+    - Gibt es spezielle Homeoffice-Richtlinien für die IT-Nutzung?
+    - Wie kann ich mich am besten organisieren, wenn ich von zu Hause aus arbeite?
+    - Kann ich zusätzliche Bildschirme für mein Homeoffice beantragen?
+    - Ich benötige ein Headset für Telefonkonferenzen im Homeoffice. Können Sie helfen?
+    - Wie kann ich meine Dateien sicher zwischen Büro und Homeoffice übertragen?
+    - Welche Software ist für Homeoffice-Zusammenarbeit empfohlen?
+    - Kann ich mein Firmenlaptop auch für private Zwecke im Homeoffice nutzen?
+    - Wie kann ich meine Homeoffice-Umgebung ergonomisch gestalten?
+    - Welche Geräte sind für Homeoffice-Betrieb geeignet?
+    - Kann ich meine Office-Telefonnummer von zu Hause aus nutzen?
+    - Gibt es Einschränkungen für die Nutzung von Unternehmensressourcen im Homeoffice?
+    - Wie kann ich die IP-Adresse meines Computers herausfinden?
+    - Kann ich meine IP-Adresse ändern?
+    - Warum bekommt mein Computer keine IP-Adresse vom Netzwerk?
+    - Welche IP-Adresse muss ich für den Zugriff auf das interne Netzwerk verwenden?
+    - Wie kann ich die IP-Konfiguration meines Routers überprüfen?
+    - Warum ist meine IP-Adresse gesperrt? Wie kann ich das Problem beheben?
+    - Welche IP-Adresse hat mein Drucker?
+    - Wie kann ich die IP-Adresse eines Netzwerkdruckers ändern?
+    - Kann ich eine statische IP-Adresse für mein Gerät festlegen?
+    - Wie kann ich eine IP-Adresse für einen neuen Computer reservieren?
+    - Warum bekommt mein Gerät keine Verbindung zum Netzwerk, obwohl die IP-Adresse korrekt ist?
+    - Welche Ports muss ich für bestimmte Anwendungen auf meiner IP-Adresse öffnen?
+    - Kann ich die IP-Adresse eines Remote-Servers ändern?
+    - Wie kann ich die IP-Adresse eines virtuellen Servers in der Cloud konfigurieren?
+    - Warum funktioniert die Remote-Verbindung zu einem Server nicht über die IP-Adresse?
+    - Welche Auswirkungen hat die Änderung der IP-Adresse meines Computers auf das Netzwerk?
+    - Wie kann ich die DHCP-Einstellungen ändern, um IP-Adressen im Netzwerk zu verwalten?
+    - Wie kann ich die IP-Adresse meines WLAN-Routers ändern?
+    - Welche IP-Adresse benötige ich für die Konfiguration meines Netzwerkswitches?
+    - Kann ich die IP-Adresse meines Smartphones ändern?
+    - Warum ändert sich die IP-Adresse meines Computers jedes Mal, wenn ich mich mit dem Netzwerk verbinde?
+    - Wie kann ich die IP-Adresse eines Netzwerkgeräts auf einem Mac finden?
+    - Kann ich mehrere Geräte mit derselben IP-Adresse verwenden?
+    - Welche IP-Adresse muss ich für die Fernwartung eines Systems verwenden?
+    - Wie kann ich die IP-Adresse meines NAS-Geräts finden und ändern?
+    - Warum ist die IP-Adresse meines virtuellen Servers plötzlich nicht erreichbar?
+
+
+
+
+
+- intent: ask_lager_it_support
+  examples: |
+    - Wir benötigen neue Etiketten für die Lagerregale. Können Sie uns helfen?
+    - Kann ich neue Etiketten für die Netzwerkgeräte beantragen?
+    - Ich brauche dringend neue Etiketten für die Bürogeräte. Wie kann ich diese erhalten?
+    - Wir müssen neue Etiketten für die Archivierung anfordern. Ist das möglich?
+    - Können Sie mir erklären, wie ich neue Etiketten für die Arbeitsplätze drucken kann?
+    - Ich möchte Etiketten für die neuen Server in unserem Rechenzentrum erstellen. Wie gehe ich vor?
+    - Kann ich Etiketten für die Umzugskartons erhalten? Wir müssen sie beschriften.
+    - Benötigen wir spezielle Etiketten für die Netzwerkkabel? Wo können wir diese bekommen?
+    - Wie kann ich Etiketten für die Drucker in unserem Büro drucken?
+    - Wo finde ich Vorlagen für Etiketten, die wir selbst drucken können?
+    - Kann ich Etiketten für die neuen PCs beantragen, die wir in unserer Abteilung erhalten haben?
+    - Wie kann ich Etiketten für die Büroausstattung bestellen?
+    - Ist es möglich, Etiketten für die Sicherheitsbereiche im Gebäude zu drucken?
+    - Wir benötigen neue Etiketten für die Lagerung von IT-Equipment. Können Sie uns dabei unterstützen?
+    - Kann ich Etiketten für die Inventarliste ausdrucken? Wir müssen sie aktualisieren.
+    - Ich möchte Etiketten für die Beschilderung der Konferenzräume erstellen. Wie gehe ich vor?
+    - Wie kann ich Etiketten für die Aufbewahrungsboxen bestellen?
+    - Wir müssen Etiketten für die Dokumentenablage drucken. Wo finde ich die Vorlagen?
+    - Können Sie mir erklären, wie ich Etiketten für die Versandkartons drucken kann?
+    - Benötigen wir spezielle Etiketten für die Sicherung der Netzwerkkomponenten?
+    - Ist es möglich, Etiketten für die Geräteverkabelung zu erstellen?
+    - Kann ich Etiketten für die externen Festplatten drucken?
+    - Wie kann ich Etiketten für die Verkabelung im Serverraum erstellen?
+    - Wir benötigen Etiketten für die Archivierung von Kundendaten. Wie können wir diese erhalten?
+    - Kann ich Etiketten für die Ordnerbeschriftung drucken?
+    - Ich möchte meinen Auftrag stornieren.
+    - Wie kann ich meinen Auftrag löschen?
+    - Kann ich einen bereits aufgegebenen Auftrag stornieren?
+    - Mein Auftrag wurde versehentlich aufgegeben. Können Sie ihn löschen?
+    - Ich möchte die Bestellung mit der Auftragsnummer [Auftragsnummer] stornieren.
+    - Können Sie mir helfen, meine Bestellung zu löschen?
+    - Wie kann ich einen Auftrag stornieren, den ich online aufgegeben habe?
+    - Ich möchte die Bestellung [Bestellnummer] stornieren.
+    - Kann ich meine Bestellung noch stornieren, bevor sie versandt wird?
+    - Gibt es eine Möglichkeit, einen Auftrag zu stornieren, nachdem er bereits bearbeitet wurde?
+    - Mein Auftrag wurde doppelt aufgegeben. Wie kann ich einen davon löschen?
+    - Ich benötige Unterstützung bei der Stornierung meiner Bestellung. Was sind die nächsten Schritte?
+    - Ist es möglich, eine Bestellung zu löschen, die bereits abgeschlossen ist?
+    - Ich habe eine Frage zu meiner aktuellen Bestellung.
+    - Können Sie mir den Lieferstatus meiner Bestellung mitteilen?
+    - Wann wird meine Bestellung voraussichtlich geliefert?
+    - Ich möchte den Status meiner Lieferung überprüfen.
+    - Gibt es Updates zu meinem Kundendienstticket?
+    - Ich habe ein Problem mit meinem Produkt. Wie kann ich Unterstützung erhalten?
+    - Kann ich eine Rücksendung meines Produkts arrangieren?
+    - Wie kann ich meine Lieferadresse ändern?
+    - Mein Paket wurde beschädigt geliefert. Was soll ich tun?
+    - Können Sie mir bei der Installation meines Produkts helfen?
+    - Wo finde ich die Bedienungsanleitung für mein Produkt?
+    - Ich habe eine Frage zur Rechnung. Können Sie mir weiterhelfen?
+    - Wie kann ich meine Zahlungsmethode aktualisieren?
+    - Ich möchte mein Abonnement kündigen. Was sind die Schritte dafür?
+    - Kann ich eine Kopie meiner letzten Bestellung erhalten?
+    - Wann wird das Produkt wieder auf Lager sein?
+    - Ich habe ein Produkt versehentlich doppelt bestellt. Was soll ich tun?
+    - Können Sie mir Informationen zu neuen Produkten geben?
+    - Gibt es aktuelle Sonderangebote oder Rabatte?
+    - Ich benötige Unterstützung bei der Nutzung meiner Software. Können Sie helfen?
+    - Wie kann ich einen technischen Support-Termin vereinbaren?
+    - Wo finde ich die Garantieinformationen für mein Produkt?
+    - Kann ich eine Produkt-Demo oder Schulung erhalten?
+    - Gibt es eine Möglichkeit, mein Produkt zu erweitern oder anzupassen?
+    - Alwis
+    - Lieferschein Alwis
+    - Stammdaten
+    - fehlende Stammdaten
+    - Alwis ist defekt. Wer kann das reparieren?
+    - Warum funktioniert Alwis nicht?
+    - Der Drucker im Lager druckt nicht. Was soll ich tun?
+    - Warum druckt der Lager-Drucker nicht?
+    - Der Drucker hat Probleme mit WEB. Was kann ich tun?
+    - Warum klappt die Verbindung zwischen Drucker und WEB nicht?
+    - Ich habe ein Problem bei der Konfektionierung. Kann mir jemand helfen?
+    - Warum gibt es Probleme bei der Konfektionierung?
+    - Die Kommissionierung funktioniert nicht richtig. Was kann ich tun?
+    - Wer kann mir bei Problemen mit der Kommissionierung helfen?
+    - Es gibt Probleme beim WE-Scan. Was kann ich tun?
+    - Der WE-Scan zeigt Fehler an. Wer kann helfen?
+    - Das Webprogramm reagiert nicht. Was könnte das Problem sein?
+    - Ich kann mich nicht bei Alwis anmelden. Wer kann helfen?
+    - Alwis hängt sich ständig auf. Was kann ich tun?
+    - Es gibt Fehler bei der Dateneingabe in Alwis. Wer kann helfen?
+    - Warum funktioniert die Lager-Software nicht richtig?
+    - Die Webanwendung stürzt ab. Was kann ich tun?
+    - Ich habe Probleme mit der Benutzeroberfläche von Alwis. Wer hilft?
+    - Der Zugriff auf die Lager-Software ist nicht möglich. Was tun?
+    - Ich bekomme eine Fehlermeldung in Alwis. Was bedeutet das?
+    - Die Alwis-Software reagiert nicht. Was kann ich tun?
+    - Warum funktioniert der Drucker in Alwis nicht?
+    - Alwis zeigt ständig Fehlermeldungen. Was tun?
+    - Probleme mit der Konfektionierungs-Software. Wer hilft?
+    - Warum geht die Kommissionierungs-Software nicht?
+    - Alwis-Datenbank ist nicht erreichbar. Was tun?
+    - Ich kann keine Daten in Alwis eingeben. Was soll ich tun?
+    - Die Lager-Software funktioniert nicht richtig. Wer kann helfen?
+    - Webanwendung im Lager reagiert nicht. Was tun?
+    - Probleme beim WE-Scan im Lager. Wer kann helfen?
+    - Die Webprogramme im Lager sind langsam. Was kann ich tun?
+    - Alwis ist abgestürzt. Was soll ich tun?
+    - Wer kann Probleme mit der Lager-Software lösen?
+    - Alwis druckt keine Etiketten. Was tun?
+    - Die Konfektionierungs-Software zeigt Fehler. Wer hilft?
+    - Probleme bei der Kommissionierung. Was tun?
+    - Lager-IT-Software funktioniert nicht richtig. Wer kann helfen?
+    - Ich kann meine Zugangskarte nicht verwenden, um die Tür zu öffnen. Was könnte das Problem sein?
+    - Warum funktioniert mein Zugangscode nicht mehr für die Tür?
+    - Die Tür erkennt meinen Fingerabdruck nicht mehr. Wie kann ich wieder Zugang bekommen?
+    - Ich habe meine Zugangskarte verloren. Wie bekomme ich eine neue?
+    - Die Tür öffnet sich nicht, wenn ich meinen RFID-Tag an das Lesegerät halte. Was kann ich tun?
+    - Warum zeigt das Zugangskontrollsystem einen Fehler an, wenn ich versuche, die Tür zu öffnen?
+    - Ich kann die Tür nicht öffnen, obwohl ich den richtigen PIN-Code eingegeben habe. Was ist das Problem?
+    - Mein Zugangscode wurde geändert, aber ich kann die Tür immer noch nicht öffnen. Was ist passiert?
+    - Die Tür öffnet sich sporadisch von selbst, ohne dass jemand seine Karte oder seinen Code verwendet hat. Ist das normal?
+    - Warum bleibt die Tür verriegelt, obwohl ich meine Zugangskarte korrekt verwendet habe?
+    - Das Zugangskontrollsystem zeigt eine "Zutrittsverweigerung" Meldung an. Was bedeutet das?
+    - Warum kann ich die Tür nicht öffnen, obwohl ich die richtige Berechtigung habe?
+    - Mein Zugangspasswort funktioniert nicht mehr. Wie kann ich es zurücksetzen?
+    - Die Tür bleibt geschlossen, obwohl ich die Zugangskarte richtig halte. Gibt es eine Störung?
+    - Warum wird mein Fingerabdruck nicht erkannt, obwohl er zuvor funktioniert hat?
+    - Die Tür öffnet sich nicht automatisch, wenn ich den Sensor passiere. Sollte das passieren?
+    - Warum erhalte ich keine Benachrichtigung, wenn jemand die Tür unautorisiert öffnet?
+    - Ich habe eine neue Zugangskarte erhalten, aber sie funktioniert nicht. Was soll ich tun?
+    - Das Zugangskontrollsystem zeigt eine Warnmeldung an, dass die Batterie des Lesegeräts schwach ist. Was bedeutet das?
+    - Warum wurde mein Zugangscode deaktiviert, obwohl ich ihn nicht geändert habe?
+    - Die Tür öffnet sich nicht, wenn ich das Sicherheitskennwort eingebe. Was kann ich tun?
+    - Warum funktioniert das Zugangskontrollsystem nur manchmal?
+    - Ich habe Probleme mit dem Zugriff auf mehrere Türen. Gibt es eine zentrale Lösung dafür?
+    - Warum öffnet sich die Tür nicht, wenn ich das Zutrittsrecht über die Software aktualisiert habe?
+    - Das Zugangssystem zeigt keine Aufzeichnungen über meinen letzten Zugang an. Was könnte falsch sein?
+    - Warum ist die Tür verriegelt, obwohl sie normalerweise offen sein sollte?
+    - Ich kann das Zugangssystem nicht über die mobile App steuern. Was muss ich tun, um es zu aktivieren?
+    - Warum funktioniert die Fernöffnung der Tür nicht, wenn ich außerhalb des Büros bin?
+    - Ich kann meine Stammdaten nicht aktualisieren. Was könnte das Problem sein?
+    - Warum werden meine Änderungen in den Stammdaten nicht gespeichert?
+    - Wie kann ich neue Stammdaten hinzufügen?
+    - Es gibt fehlende Stammdaten in unserem System. Wie können wir sie wiederherstellen?
+    - Warum sind einige Felder in den Stammdaten nicht editierbar?
+    - Die Stammdaten sind veraltet. Wie kann ich sie aktualisieren?
+    - Welche Berechtigungen benötige ich, um Stammdaten zu ändern?
+    - Ich habe Probleme beim Abrufen der aktuellen Stammdaten. Wie kann ich sie überprüfen?
+    - Warum werden meine Änderungen in den Stammdaten nicht veröffentlicht?
+    - Wie kann ich die Qualität der Stammdaten verbessern?
+    - Ich kann bestimmte Felder in den Stammdaten nicht finden. Wo sind sie?
+    - Warum sind manche Felder in den Stammdaten leer?
+    - Die Stammdaten enthalten falsche Informationen. Wie kann ich sie korrigieren?
+    - Warum sind die Stammdaten nicht vollständig?
+    - Kann ich alte Versionen der Stammdaten wiederherstellen?
+    - Wie kann ich prüfen, ob die Stammdaten aktuell sind?
+    - Warum kann ich meine Stammdaten nicht exportieren?
+    - Ich benötige Zugang zu bestimmten Stammdaten, aber habe keine Berechtigung. Was kann ich tun?
+    - Welche Software wird verwendet, um die Stammdaten zu verwalten?
+    - Kann ich die Stammdaten automatisch aktualisieren lassen?
+    - Warum sind einige Stammdaten redundant?
+    - Ich kann die Stammdaten nicht aus einer anderen Quelle importieren. Was ist das Problem?
+    - Wie kann ich Duplikate in den Stammdaten vermeiden?
+    - Warum sind manche Stammdaten fehlerhaft?
+    - Kann ich einen Bericht über die Stammdaten erstellen?
+    - Wie oft sollten die Stammdaten überprüft werden?
+    - Warum gibt es Inkonsistenzen zwischen den verschiedenen Systemen für die Stammdaten?
+    - Die Stammdatenbank zeigt Fehlermeldungen an. Was kann ich tun?
+    - Wie kann ich sicherstellen, dass die Stammdaten den rechtlichen Anforderungen entsprechen?
+    - Kann ich die Stammdatenbank selbst warten?
+    - Warum dauert der Zugriff auf die Stammdaten so lange?
+    - Wie kann ich die Sicherheit der Stammdaten verbessern?
+    - Beim Scannen der Ware im WE gibt es Probleme. Was kann ich tun?
+    - Warum kann ich die Ware im WE nicht scannen?
+    - Der WE-Scan funktioniert nicht richtig. Kann jemand helfen?
+    - Beim Scannen der Ware tauchen Fehlermeldungen auf. Was könnte die Ursache sein?
+    - Wie kann ich den WE-Scan reparieren, wenn er nicht funktioniert?
+    - Es gibt Schwierigkeiten beim Einscannen der Ware in das Lagerprogramm. Wer kann helfen?
+    - Warum kann ich die Ware nicht in das Lagerprogramm scannen?
+    - Der Barcode wird nicht erkannt, wenn ich die Ware im WE scannen möchte. Was tun?
+    - Der Scanner zeigt keine Reaktion, wenn ich versuche, die Ware einzuscannen. Was könnte das Problem sein?
+    - Beim Versuch, die Ware zu scannen, erscheint eine Fehlermeldung über die Verbindung. Wie kann ich das beheben?
+    - Kann ich die Einstellungen des WE-Scanners überprüfen, um sicherzustellen, dass er korrekt konfiguriert ist?
+    - Die gescannten Daten werden nicht korrekt in die Lagerdatenbank übertragen. Was ist die Lösung?
+    - Warum werden die gescannten Informationen nicht automatisch in das Lagerbuchungssystem übertragen?
+    - Der WE-Scan ist langsam und reagiert verzögert. Was kann ich tun, um die Leistung zu verbessern?
+    - Beim Scannen der Ware im WE kommt es zu Duplikaten oder fehlerhaften Einträgen. Wie kann ich das verhindern?
+    - Welche Schritte muss ich unternehmen, um sicherzustellen, dass der WE-Scan korrekt funktioniert?
+    - Warum funktioniert der WE-Scan nur für bestimmte Produkte und nicht für andere?
+    - Kann ich die Firmware des WE-Scanners aktualisieren, um Probleme zu beheben?
+    - Beim Scannen der Ware im WE kommt es zu Unterbrechungen oder Abstürzen. Wie kann ich das beheben?
+    - Warum dauert es so lange, bis die gescannten Daten im Lagerprogramm angezeigt werden?
+    - Kann ich den WE-Scan mit anderen Geräten oder Softwarelösungen integrieren, um die Effizienz zu steigern?
+    - Wie kann ich sicherstellen, dass der WE-Scan für alle Lagermitarbeiter einfach zu bedienen ist?
+    - Beim Scannen der Ware im WE werden einige Barcodes nicht erkannt. Was ist die Ursache dafür?
+    - Der WE-Scan funktioniert nach einem Softwareupdate nicht mehr richtig. Was kann ich tun, um das Problem zu lösen?
+    - Warum werden die gescannten Daten im WE manchmal nicht richtig synchronisiert?
+    - Welche Schulungen sind erforderlich, damit die Lagermitarbeiter den WE-Scan effektiv nutzen können?
+    - Die neue Webanwendung hat einen Fehler. Was soll ich tun?
+    - Warum funktioniert die Erweiterung der Webanwendung nicht richtig?
+    - Es gibt Probleme mit der neuen Funktion in der Webanwendung. Wer kann helfen?
+    - Warum gibt es Schwierigkeiten bei der Nutzung der neuen Webanwendung?
+    - Die Erweiterung für die Webanwendung führt zu Fehlern. Was könnte die Ursache sein?
+    - Kann jemand die Bugs in der Webanwendung beheben?
+    - Die neue Funktion der Webanwendung stürzt ab. Was kann ich tun, um das Problem zu lösen?
+    - Warum funktioniert die Erweiterung der Webanwendung nur teilweise?
+    - Die neue Version der Webanwendung hat Performance-Probleme. Wie kann ich das verbessern?
+    - Warum gibt es nach der Erweiterung der Webanwendung Probleme mit der Benutzeroberfläche?
+    - Kann ich die Konfiguration der neuen Webanwendung überprüfen, um Fehler zu identifizieren?
+    - Die aktualisierte Webanwendung zeigt unerwartetes Verhalten. Wie kann ich das korrigieren?
+    - Warum sind die Daten in der neuen Funktion der Webanwendung nicht korrekt?
+    - Die Erweiterung der Webanwendung verursacht Konflikte mit anderen Systemen. Was tun?
+    - Kann ich die Nutzbarkeit der neuen Funktion in der Webanwendung testen, um Fehler zu finden?
+    - Die Sicherheit der neuen Erweiterung in der Webanwendung ist gefährdet. Wie kann ich das beheben?
+    - Warum sind die neuen Funktionen der Webanwendung für einige Benutzer nicht verfügbar?
+    - Die Benutzer berichten über unerklärliche Fehler nach der Installation der neuen Webanwendung. Was tun?
+    - Kann ich die Kompatibilität der neuen Webanwendung mit verschiedenen Browsern überprüfen?
+    - Die Benutzer sind mit der Leistung der neuen Erweiterung der Webanwendung unzufrieden. Wie kann ich das optimieren?
+    - Warum sind die neuen Funktionen der Webanwendung nicht wie erwartet integriert?
+    - Die Benutzer melden Probleme mit der neuen Erweiterung in der Webanwendung. Wie kann ich das diagnostizieren?
+    - Kann ich die Dokumentation für die neue Webanwendung aktualisieren, um Probleme zu vermeiden?
+    - Die Installation der neuen Erweiterung für die Webanwendung ist fehlgeschlagen. Was kann ich tun?
+    - Warum funktioniert die neue Erweiterung der Webanwendung auf mobilen Geräten nicht richtig?
+    - Die Integration der neuen Funktion in die bestehende Webanwendung führt zu Inkonsistenzen. Wie kann ich das lösen?
+    - Kann ich die Fehlerprotokolle der neuen Webanwendung überprüfen, um die Ursache zu identifizieren?
+    - Die Benutzer sind nicht in der Lage, die neue Erweiterung der Webanwendung zu nutzen. Was ist das Problem?
+    - Warum gibt es nach der Aktualisierung der Webanwendung Probleme mit der Datenintegrität?
+    - Die neue Erweiterung der Webanwendung ist für einige Benutzer nicht zugänglich. Wie kann ich das beheben?
+    - Ich kann die Palette für Auftrag XYZ nicht auslagern. Was könnte das Problem sein?
+    - Warum kann die Palette nicht ins Lager eingelagert werden?
+    - Die Palette für Lieferung ABC kann nicht ausgelagert werden. Was ist zu tun?
+    - Kann jemand helfen, die Palette für Auftrag DEF ins Lager zu bringen?
+    - Warum wird die Palette für Kundenauftrag GHI nicht ausgelagert?
+    - Die eingehende Palette für Projekt JKL kann nicht ins Lager eingelagert werden. Warum?
+    - Warum kann die Palette für Bestellung MNO nicht in das Lager eingelagert werden?
+    - Die Palette für Lieferung PQR kann nicht ins Lager gebracht werden. Ist etwas schiefgelaufen?
+    - Warum kann die auszulagernde Palette für Auftrag STU nicht gefunden werden?
+    - Kann jemand die Palette für Kundenbestellung VWX ins Lager bringen?
+    - Die Palette für Projekt YZ kann nicht ausgelagert werden. Was soll ich tun?
+    - Warum wird die eingehende Palette für Lieferung 123 nicht ins Lager eingelagert?
+    - Die Palette für Kundenbestellung 456 kann nicht ausgelagert werden. Kann das überprüft werden?
+    - Warum wird die Palette für Lieferung 789 nicht ausgelagert?
+    - Kann jemand helfen, die Palette für Auftrag 012 ins Lager zu bringen?
+    - Warum kann die Palette für Bestellung 345 nicht eingelagert werden?
+    - Die eingehende Palette für Kundenauftrag 678 kann nicht ins Lager eingelagert werden. Warum nicht?
+    - Warum kann die auszulagernde Palette für Projekt 901 nicht gefunden werden?
+    - Kann jemand die Palette für Lieferung 234 ins Lager bringen?
+    - Die Palette für Kundenbestellung 567 kann nicht ausgelagert werden. Kann das überprüft werden?
+    - Warum wird die eingehende Palette für Auftrag 890 nicht ins Lager eingelagert?
+    - Ich kann mich nicht bei Novatime anmelden. Was soll ich tun?
+    - Novatime zeigt eine Fehlermeldung beim Einloggen an. Wie kann das behoben werden?
+    - Warum funktioniert Novatime nicht? Ich kann keine Arbeitszeiten eingeben.
+    - Die Zeiterfassung in Novatime funktioniert nicht richtig. Wer kann helfen?
+    - Kann jemand das Passwort für meinen Novatime-Zugang zurücksetzen?
+    - Novatime stürzt ab, wenn ich versuche, meine Arbeitszeit einzugeben. Was ist zu tun?
+    - Warum werden meine Arbeitsstunden in Novatime nicht korrekt erfasst?
+    - Die Novatime-App lässt sich nicht öffnen. Gibt es Probleme mit dem Server?
+    - Kann jemand helfen, meine Überstunden in Novatime einzutragen?
+    - Warum zeigt Novatime falsche Arbeitszeiten an?
+    - Die Novatime-Website lädt nicht richtig. Gibt es Serverprobleme?
+    - Wie kann ich meine Urlaubsanträge über Novatime stellen?
+    - Warum funktioniert die Zeiterfassung über Novatime nicht auf meinem Mobilgerät?
+    - Ich habe Probleme mit dem Abrufen meiner Arbeitszeitdaten in Novatime. Wer kann helfen?
+    - Novatime zeigt keine aktuellen Daten an. Ist das ein bekanntes Problem?
+    - Warum kann ich keine Urlaubsanträge in Novatime genehmigen?
+    - Die Novatime-Anwendung ist langsam. Gibt es Wartungsarbeiten?
+    - Kann jemand helfen, die Novatime-Software auf meinem Computer zu aktualisieren?
+    - Warum erhalte ich keine Benachrichtigungen von Novatime?
+    - Die Novatime-Zeiterfassung ist für mich nicht verfügbar. Was ist passiert?
+    - Kann jemand die Novatime-Datenbank überprüfen? Ich kann nicht darauf zugreifen.
+    - Alwis ist langsam. Was kann ich tun, um die Leistung zu verbessern?
+    - Ich kann mich nicht bei Alwis anmelden. Wie kann ich das Problem beheben?
+    - Warum stürzt Alwis ab, wenn ich bestimmte Funktionen verwende?
+    - Alwis zeigt eine Fehlermeldung beim Laden der Datenbank. Was soll ich tun?
+    - Die Dateneingabe in Alwis funktioniert nicht korrekt. Gibt es eine Lösung dafür?
+    - Warum werden meine Änderungen in Alwis nicht gespeichert?
+    - Es gibt Probleme mit der Konfektionierung in Alwis. Wer kann helfen?
+    - Alwis zeigt Fehler bei der Kommissionierung an. Wie kann ich das überprüfen?
+    - Warum reagiert die Benutzeroberfläche von Alwis nicht mehr?
+    - Ich kann keine neuen Datensätze in Alwis eingeben. Was kann ich tun?
+    - Alwis meldet Probleme mit der Datenbankverbindung. Gibt es eine Lösung dafür?
+    - Warum funktioniert die Alwis-Software nach dem Update nicht mehr wie erwartet?
+    - Die Druckfunktionen in Alwis sind fehlerhaft. Wie kann ich das beheben?
+    - Warum sind die Lagerdaten in Alwis nicht aktuell?
+    - Ich habe Probleme mit den Benutzerrechten in Alwis. Wie kann ich diese konfigurieren?
+    - Alwis zeigt unerklärliche Verbindungsprobleme mit anderen Systemen. Wie kann ich das beheben?
+    - Warum dauert der Zugriff auf bestimmte Funktionen in Alwis so lange?
+    - Die Berichterstellung in Alwis ist fehlerhaft. Wie kann ich das korrigieren?
+    - Ich benötige Unterstützung bei der Installation von Updates für Alwis. Wer kann helfen?
+    - Warum gibt es Inkonsistenzen bei den Daten in Alwis? Wie kann ich diese bereinigen?
+    - Die Lagerbestände in Alwis stimmen nicht mit den tatsächlichen Beständen überein. Was kann ich tun?
+    - Warum gibt es Probleme mit der Datensynchronisation zwischen Alwis und anderen Systemen?
+    - Ich benötige eine Schulung für neue Mitarbeiter in der Nutzung von Alwis. Wie kann ich das organisieren?
+    - Warum gibt es Probleme bei der Integration von Alwis mit unserer anderen Lagerverwaltungssoftware?
+    - Die Alwis-Datenbankabfrage ist langsam. Gibt es Möglichkeiten zur Optimierung?
+    - Warum werden einige Funktionen in Alwis nach einem Systemneustart nicht geladen?
+    - Die Alwis-Oberfläche ist nicht benutzerfreundlich. Gibt es Anpassungsoptionen?
+    - Warum sind die Alwis-Serverressourcen überlastet? Wie kann ich das optimieren?
+    - Probleme mit der Druckqualität in Alwis. Was kann ich tun, um dies zu verbessern?
+    - Alwis zeigt eine hohe CPU-Auslastung. Wie kann ich das Problem beheben?
+    - Warum gibt es Probleme bei der Verbindung mit externen APIs über Alwis?
+    - Die Alwis-Datenbank ist nicht erreichbar. Wie kann ich die Serververbindung überprüfen?
+    - Probleme mit der Datenintegrität in Alwis. Wie kann ich sicherstellen, dass die Daten korrekt sind?
+    - Warum Storniert
+    - Wer hat storniert
+    - Warum wurde der Auftrag storniert?
+    - Was sind die Gründe für die Stornierung des Auftrags?
+    - Kann ich mehr Informationen über die Stornierung des Auftrags erhalten?
+    - Warum wurde die Sendung gestrichen?
+    - Welche Gründe gibt es für die Streichung der Sendung?
+    - Ich brauche weitere Details zur gestrichenen Sendung.
+    - Können Sie mir Auskunft über den stornierten Auftrag geben?
+    - Was sind die Hintergründe für die Auftragsstornierung?
+    - Gibt es spezifische Informationen zur stornierten Bestellung?
+    - Warum wurde der Sonderauftrag gestrichen?
+    - Kann ich Informationen über die stornierte Rücksendung erhalten?
+    - Was sind die Details zur gestrichenen Bestellung?
+    - Können Sie mir mehr über die gestrichene Lieferung sagen?
+    - Ich benötige Details zur Stornierung der Sonderbestellung.
+    - Warum wurde die Rücksendung storniert?
+    - Gibt es Hintergrundinformationen zur gestrichenen Bestelländerung?
+    - Kann ich mehr über die gestrichene Bestellung erfahren?
+    - Warum wurde mein Auftrag storniert?
+    - Können Sie mir sagen, warum der Auftrag abgesagt wurde?
+    - Ich hätte gerne mehr Details zur Stornierung meines Auftrags.
+    - Weshalb wurde die Bestellung storniert?
+    - Kann ich den Grund für die Stornierung meiner Bestellung erfahren?
+    - Ich benötige zusätzliche Informationen zur gestrichenen Sendung.
+    - Können Sie mir erklären, warum die Sendung annulliert wurde?
+    - Warum wurde der Versand gestrichen?
+    - Auftrag im WEB angelegt
+    - Anmeldedtan WEB
+    - User Web
+    - Staplermengen
+    - Auswertungen Lagerdaten
+    - Verplanung ERR Alwis 
+    - Verplanung blockiert
+    - Gibt es Gründe für die Streichung meiner Lieferung?
+    - Ich würde gerne wissen, warum der Auftrag nicht durchgeführt wurde.
+    - Kann ich mehr über die Gründe für die Streichung meiner Bestellung erfahren?
+    - Was sind die Ursachen für die Annullierung meines Sonderauftrags?
+    - Warum wurde meine Rücksendung gestrichen?
+    - Bitte erklären Sie, warum meine Bestellung storniert wurde.
+    - Ich brauche weitere Informationen zur stornierten Lieferung.
+    - Was sind die Hintergründe für die Stornierung meines Kaufs?
+    - Können Sie mir helfen, den Grund für die Stornierung meiner Bestellung zu verstehen?
+    - Warum wurde meine Sonderbestellung abgesagt?
+    - Ich würde gerne wissen, warum die Rücksendung annulliert wurde.
+    - Kann ich mehr über die Details zur stornierten Bestellung erfahren?
+    - Der Lieferschein für meine Bestellung fehlt. Können Sie mir weiterhelfen?
+    - Ich habe meine Lieferung erhalten, aber der Lieferschein fehlt. Was soll ich tun?
+    - Können Sie mir sagen, warum der Lieferschein nicht in der Lieferung enthalten war?
+    - Der Lieferschein ist nicht dabei. Wie kann ich eine Kopie erhalten?
+    - Wo finde ich den Lieferschein für meine kürzlich gelieferte Bestellung?
+    - Der Lieferschein fehlt in der Lieferung. Wie kann ich das Problem lösen?
+    - Ich habe meine Lieferung erhalten, aber der Lieferschein ist nicht beigefügt. Was nun?
+    - Mein Paket ist angekommen, aber der Lieferschein wurde nicht mitgeliefert. Können Sie mir weiterhelfen?
+    - Kann es sein, dass der Lieferschein versehentlich nicht mit der Lieferung verschickt wurde?
+    - Ich benötige dringend den Lieferschein für meine Bestellung. Was soll ich tun?
+    - Warum wurde der Lieferschein meiner Lieferung nicht beigelegt?
+    - Mir fehlt der Lieferschein für die zuletzt erhaltene Sendung. Wie kann ich ihn erhalten?
+    - Wo kann ich den fehlenden Lieferschein für meine Lieferung anfordern?
+    - Wie bekomme ich einen neuen Lieferschein, da der alte fehlt?
+    - Ich habe meine Bestellung erhalten, aber der Lieferschein ist nicht dabei. Was jetzt?
+    - Der Lieferschein wurde nicht mit meiner Bestellung geliefert. Wie kann ich ihn bekommen?
+    - Kann ich den Lieferschein elektronisch erhalten, da er in meiner Lieferung fehlt?
+    - Es scheint, dass der Lieferschein für meine Lieferung verloren gegangen ist. Wie kann ich ihn nachfordern?
+    - Wo kann ich den fehlenden Lieferschein für meine Bestellung anfordern?
+    - Meine Lieferung ist angekommen, aber der Lieferschein ist nicht dabei. Wie kann ich das Problem lösen?
+    - Ich möchte meinen Auftrag stornieren.
+    - Kann ich meine Bestellung stornieren?
+    - Ich möchte den Auftrag für [Produkt/Service] stornieren.
+    - Wie kann ich meine Bestellung rückgängig machen?
+    - Der Auftrag soll nicht mehr ausgeführt werden.
+    - Ich möchte meine Bestellung widerrufen.
+    - Können Sie mir bitte helfen, meinen Auftrag zu stornieren?
+    - Ich benötige Unterstützung bei der Stornierung meines Auftrags.
+    - Ist es möglich, meinen Auftrag zu annullieren?
+    - Kann ich meine Bestellung noch rückgängig machen?
+    - Ich würde gerne den Auftrag [Auftragsnummer] stornieren.
+    - Der Auftrag muss storniert werden, weil [Grund].
+    - Bitte stornieren Sie meine Bestellung für [Produkt].
+    - Ich habe aus Versehen eine Bestellung aufgegeben. Kann ich sie stornieren?
+    - Ich benötige dringend die Stornierung meiner letzten Bestellung.
+    - Warum kann ich meinen Auftrag nicht online stornieren?
+    - Wie lange habe ich Zeit, um meinen Auftrag zu stornieren?
+    - Kann ich eine Rückerstattung erwarten, wenn ich meinen Auftrag storniere?
+    - Was passiert mit meinen Zahlungsinformationen, wenn ich meinen Auftrag storniere?
+    - Gibt es Gebühren oder Kosten für die Stornierung meines Auftrags?
+    - Ich habe versucht, meinen Auftrag zu stornieren, aber es funktioniert nicht.
+    - Warum kann ich meinen Auftrag nicht stornieren?
+    - Ich erhalte eine Fehlermeldung beim Versuch, meinen Auftrag zu stornieren.
+    - Die Stornierungsoption für meinen Auftrag ist nicht verfügbar.
+    - Mein Stornierungsantrag wurde abgelehnt. Warum?
+    - Wann erhalte ich eine Bestätigung für die Stornierung meines Auftrags?
+    - Können Sie mir erklären, warum meine Stornierungsanfrage nicht bearbeitet wurde?
+    - Ich habe bereits eine Stornierungsanfrage gestellt. Was ist der Status?
+    - Der Kundenservice konnte mir nicht bei der Stornierung meines Auftrags helfen.
+    - Wie kann ich sicherstellen, dass meine Stornierungsanfrage erfolgreich war?
+    - Ich habe mehrmals versucht, meinen Auftrag zu stornieren, aber es hat nicht geklappt.
+    - Die Stornierung meines Auftrags ist dringend. Kann ich schnelle Hilfe bekommen?
+    - Es gibt ein Problem mit der Stornierung meines Auftrags. Wer kann mir helfen?
+    - Ich benötige eine Bestätigung für die Stornierung meines Auftrags.
+    - Der Auftrag sollte bereits storniert sein, aber ich habe keine Bestätigung erhalten.
+    - Können Sie den Grund erklären, warum meine Stornierungsanfrage nicht akzeptiert wurde?
+    - Ich bin mir nicht sicher, ob meine Stornierungsanfrage bearbeitet wurde. Wie kann ich nachfragen?
+    - Warum dauert es so lange, bis mein Auftrag storniert ist?
+    - Ich habe Probleme, meinen Auftrag online zu stornieren. Was kann ich tun?
+    - Es gab ein Problem mit der automatischen Stornierung meines Auftrags. Wer kann helfen?
+    - Kann ich eine Position in meinem Auftrag stornieren?
+    - Ich möchte eine bestimmte Position in meinem Auftrag stornieren.
+    - Ist es möglich, einen Artikel in meinem Auftrag zu stornieren?
+    - Wie kann ich eine Position in meinem Auftrag rückgängig machen?
+    - Kann ich eine Auftragsposition ändern oder stornieren?
+    - Ich möchte einen Artikel aus meinem Auftrag entfernen.
+    - Bitte stornieren Sie die Position für [Produkt] in meiner Bestellung.
+    - Wie kann ich eine Position in meinem Auftrag bearbeiten?
+    - Kann ich die Menge eines Artikels in meiner Bestellung ändern?
+    - Ich möchte die Lieferadresse für eine Position in meinem Auftrag ändern.
+    - Gibt es eine Frist, um eine Auftragsposition zu stornieren?
+    - Ich möchte die Farbe/Größe eines Artikels in meiner Bestellung ändern.
+    - Kann ich die Menge eines Artikels reduzieren/erhöhen?
+    - Ich möchte die Zahlungsmethode für eine Position in meinem Auftrag ändern.
+    - Bitte stornieren Sie die Auftragsposition mit der Artikelnummer [Nummer].
+    - Wie kann ich die Versandoptionen für einen Artikel in meiner Bestellung ändern?
+    - Ich möchte eine Position aus meiner Bestellung stornieren und neu bestellen.
+    - Ist es möglich, eine Auftragsposition nach dem Versand zu stornieren?
+    - Können Sie mir helfen, eine Position in meiner Bestellung zu stornieren?
+    - Wie kann ich eine Auftragsposition bearbeiten, die bereits versandt wurde?
+    - Kann ich die Artikel in meinem Auftrag ändern?
+    - Ich möchte die Farbe/Größe eines Artikels in meiner Bestellung ändern.
+    - Wie kann ich die Lieferadresse für einen Artikel in meiner Bestellung ändern?
+    - Kann ich die Menge eines Artikels in meiner Bestellung reduzieren/erhöhen?
+    - Ist es möglich, einen Artikel in meinem Auftrag zu aktualisieren?
+    - Ich möchte die Artikel in meiner Bestellung ändern.
+    - Wie kann ich die Zahlungsmethode für einen Artikel in meiner Bestellung ändern?
+    - Kann ich die Versandoptionen für einen Artikel in meiner Bestellung ändern?
+    - Ich möchte die Lieferadresse für einen Artikel in meinem Auftrag ändern.
+    - Kann ich einen Artikel in meiner Bestellung durch einen anderen ersetzen?
+    - Wie kann ich die Details eines Artikels in meiner Bestellung aktualisieren?
+    - Ich möchte einen Artikel in meiner Bestellung austauschen.
+    - Kann ich die Menge eines Artikels in meiner Bestellung nachträglich ändern?
+    - Wie kann ich die Details eines Artikels in meiner Bestellung bearbeiten?
+    - Ich möchte einen Artikel in meiner Bestellung ändern, bevor er versendet wird.
+    - Kann ich die Versandadresse für einen Artikel in meiner Bestellung ändern?
+    - Wie kann ich die Details eines Artikels in meiner Bestellung nachträglich bearbeiten?
+    - Ich möchte die Artikel in meiner Bestellung aktualisieren.
+    - Kann ich die Artikel in meiner Bestellung ändern, nachdem sie versendet wurden?
+    - Kann ich den Status meiner Sendung überprüfen?
+    - Wie kann ich den aktuellen Status meiner Lieferung erfahren?
+    - Wo befindet sich meine Sendung gerade?
+    - Können Sie mir sagen, wo mein Paket ist?
+    - Ist es möglich, den Status meiner Bestellung zu überprüfen?
+    - Wo ist mein Paket jetzt?
+    - Ich möchte den Status meiner Lieferung wissen.
+    - Wann wird meine Sendung voraussichtlich ankommen?
+    - Kann ich den Lieferstatus meiner Bestellung überprüfen?
+    - Wo ist mein Paket auf dem Weg?
+    - Wie kann ich den Sendungsstatus meiner Bestellung überprüfen?
+    - Können Sie mir sagen, wann meine Lieferung ankommt?
+    - Wo ist mein Paket zurzeit?
+    - Wann wird meine Bestellung geliefert?
+    - Kann ich den aktuellen Stand meiner Bestellung erfahren?
+    - Wann kommt meine Sendung an?
+    - Wo befindet sich mein Paket?
+    - Wie kann ich den aktuellen Stand meiner Lieferung überprüfen?
+    - Ist es möglich, den Lieferstatus meiner Sendung zu überprüfen?
+    - Kann ich herausfinden, wo mein Paket ist?
+    - Ich benötige neue Regaletiketten für das Lager.
+    - Können Sie mir neue Etiketten für die Regale bereitstellen?
+    - Wo kann ich Regaletiketten bestellen?
+    - Brauche ich spezielle Etiketten für die Lagerregale?
+    - Kann ich neue Etiketten für die Regale erhalten?
+    - Wie kann ich Regaletiketten für das Lager anfordern?
+    - Wo kann ich Regaletiketten für das Lager kaufen?
+    - Benötigen wir spezielle Etiketten für die Regale im Lager?
+    - Kann ich neue Etiketten für die Lagerregale bestellen?
+    - Wo finde ich Informationen über Regaletiketten für das Lager?
+    - Wie kann ich Etiketten für die Regale im Lager erhalten?
+    - Welche Art von Etiketten sind für die Lagerregale geeignet?
+    - Wo kann ich Regaletiketten für das Lager anpassen lassen?
+    - Benötigen wir spezielle Etiketten für die Lagerregale?
+    - Wo kann ich Etiketten für die Lagerregale kaufen?
+    - Welche Regaletiketten sind für das Lager empfohlen?
+    - Wo finde ich Informationen über Regaletiketten für das Lager?
+    - Wie kann ich Etiketten für die Regale im Lager bestellen?
+    - Die Stammdaten für Kunde XYZ fehlen. Können Sie das überprüfen?
+    - Ich kann die Stammdaten für Lieferant ABC nicht finden. Was ist passiert?
+    - Warum sind die Stammdaten für Produkt DEF nicht verfügbar?
+    - Die Stammdaten für den Artikel GHI sind nicht vollständig. Kann das überprüft werden?
+    - Ich benötige die fehlenden Stammdaten für Projekt JKL. Wer kann mir helfen?
+    - Kann jemand die fehlenden Stammdaten für Maschine MNO ergänzen?
+    - Es fehlen Stammdaten für die Abteilung PQR. Was ist der Grund dafür?
+    - Warum fehlen die Stammdaten für Lagerort STU?
+    - Die Stammdaten für Lieferant VWX sind nicht vollständig. Was soll ich tun?
+    - Kann jemand die fehlenden Stammdaten für Kunden YZ nachpflegen?
+    - Ich benötige dringend die fehlenden Stammdaten für Produktionsauftrag 123.
+    - Warum sind die Stammdaten für Projekt XYZ nicht aktuell?
+    - Es fehlen Stammdaten für Lieferant ABC. Wie kann das behoben werden?
+    - Die Stammdaten für den Artikel DEF sind unvollständig. Wer kann das überprüfen?
+    - Können Sie die fehlenden Stammdaten für Maschine GHI aktualisieren?
+    - Warum sind die Stammdaten für Projekt JKL nicht vollständig?
+    - Es fehlen Stammdaten für Artikel MNO. Wer ist dafür zuständig?
+    - Kann jemand die fehlenden Stammdaten für Abteilung PQR bereitstellen?
+    - Ich benötige die fehlenden Stammdaten für Lagerort STU. Können Sie das überprüfen?
+    - Warum sind die Stammdaten für Lieferant VWX nicht komplett?
+    - Die Stempeluhr funktioniert nicht. Was kann ich tun?
+    - Warum erkennt die Stempeluhr meine Arbeitszeiten nicht?
+    - Es gibt Probleme mit der Stempeluhr. Wer kann das überprüfen?
+    - Die Stempeluhr zeigt falsche Arbeitszeiten an. Kann das korrigiert werden?
+    - Warum funktioniert die Stempeluhr nicht richtig?
+    - Kann jemand die Stempeluhr reparieren? Sie funktioniert nicht mehr.
+    - Die Stempeluhr ist defekt. Wie lange dauert die Reparatur?
+    - Ich kann mich nicht bei der Stempeluhr anmelden. Was ist das Problem?
+    - Die Stempeluhr zeigt keine korrekten Uhrzeiten an. Was ist passiert?
+    - Ich kann meine Arbeitszeiten nicht mit der Stempeluhr erfassen. Was soll ich tun?
+    - Die Stempeluhr gibt keinen Stempelabdruck aus. Was könnte das Problem sein?
+    - Warum funktioniert die Stempeluhr nach dem letzten Update nicht mehr?
+    - Es gibt Probleme beim Auslesen der Stempeluhrdaten. Wer kann helfen?
+    - Die Stempeluhr scheint blockiert zu sein. Wie kann ich das beheben?
+    - Die Stempeluhr verweigert die Anmeldung. Was kann ich tun?
+    - Warum werden meine Stempelungen von der Stempeluhr nicht erfasst?
+    - Die Stempeluhr zeigt "Fehler" an. Was bedeutet das?
+    - Ich benötige Unterstützung bei der Bedienung der neuen Stempeluhr. Können Sie helfen?
+    - Warum ist die Stempeluhr nicht mit dem Netzwerk verbunden?
+    - Die Stempeluhr ist langsam und reagiert nicht richtig. Was kann ich tun?
+    - Wie kann ich die Stempeluhr auf die Sommerzeit umstellen?
+    - Ich habe keine Zugriffsberechtigung für das Lager. Wie kann ich Zugang erhalten?
+    - Warum kann ich nicht auf das Lager zugreifen?
+    - Welche Schritte sind erforderlich, um Zugriff auf das Lager zu erhalten?
+    - Mein Zugriff auf das Lager wurde plötzlich verweigert. Was ist passiert?
+    - Kann meine Lagerzugangsberechtigung aktualisiert oder erneuert werden?
+    - Wie kann ich meine Lagerberechtigungen überprüfen?
+    - Ich benötige dringend Zugriff auf das Lager. Wer kann mir helfen?
+    - Warum wurde mein Lagerzugang deaktiviert?
+    - Welche Formulare oder Anträge sind erforderlich, um Zugang zum Lager zu erhalten?
+    - Wie lange dauert es, bis meine Lagerzugangsanfrage bearbeitet wird?
+    - Kann ich temporäre Zugangsberechtigungen für das Lager erhalten?
+    - Meine Lagerzugangskarte funktioniert nicht mehr. Wie kann ich sie reparieren lassen?
+    - Gibt es spezielle Schulungen oder Anweisungen für den Zugang zum Lager?
+    - Ich habe Schwierigkeiten beim Einloggen in das Lagerverwaltungssystem. Kann das behoben werden?
+    - Warum erhalte ich eine "Zugriff verweigert"-Nachricht, wenn ich auf das Lager zugreifen möchte?
+    - Kann ich Zugriff auf spezifische Bereiche des Lagers beantragen?
+    - Wie kann ich meine Lagerzugangsberechtigung für verschiedene Schichten aktualisieren?
+    - Meine Zugangsberechtigungskarte für das Lager ist abgelaufen. Was soll ich tun?
+    - Warum wird meine Lagerzugangsanfrage nicht bearbeitet?
+    - Kann ich meine Lagerzugangsberechtigung für außergewöhnliche Situationen aktualisieren?
+    - Ich habe keine Berechtigung, auf Alwis zuzugreifen. Wie kann ich Zugang erhalten?
+    - Warum kann ich nicht auf Alwis zugreifen?
+    - Welche Schritte sind erforderlich, um Zugriff auf Alwis zu erhalten?
+    - Mein Zugriff auf Alwis wurde plötzlich verweigert. Was ist passiert?
+    - Kann meine Alwis-Zugangsberechtigung aktualisiert oder erneuert werden?
+    - Wie kann ich meine Alwis-Berechtigungen überprüfen?
+    - Ich benötige dringend Zugang zu Alwis. Wer kann mir helfen?
+    - Warum wurde mein Zugang zu Alwis deaktiviert?
+    - Welche Formulare oder Anträge sind erforderlich, um Zugang zu Alwis zu erhalten?
+    - Wie lange dauert es, bis meine Alwis-Zugangsanfrage bearbeitet wird?
+    - Kann ich temporäre Zugangsberechtigungen für Alwis erhalten?
+    - Meine Alwis-Zugangskarte funktioniert nicht mehr. Wie kann ich sie reparieren lassen?
+    - Gibt es spezielle Schulungen oder Anweisungen für den Zugang zu Alwis?
+    - Ich habe Schwierigkeiten beim Einloggen in das Alwis-System. Kann das behoben werden?
+    - Warum erhalte ich eine "Zugriff verweigert"-Nachricht, wenn ich auf Alwis zugreifen möchte?
+    - Kann ich Zugriff auf spezifische Funktionen oder Bereiche von Alwis beantragen?
+    - Wie kann ich meine Alwis-Zugangsberechtigung für verschiedene Arbeitsabläufe aktualisieren?
+    - Meine Zugangsberechtigungskarte für Alwis ist abgelaufen. Was soll ich tun?
+    - Warum wird meine Alwis-Zugangsanfrage nicht bearbeitet?
+    - Kann ich meine Alwis-Zugangsberechtigung für außergewöhnliche Situationen aktualisieren?
+    - Alwis
+    - Web
+    - Die neue Web-Erweiterung verursacht Fehler. Können Sie das überprüfen?
+    - Ich habe Probleme mit der Installation einer neuen Web-Erweiterung. Können Sie helfen?
+    - Die Web-Erweiterung lädt sehr langsam. Was kann ich tun, um das zu verbessern?
+    - Kann ich eine neue Web-Erweiterung für das CRM-System installieren?
+    - Die Web-Erweiterung für das Projektmanagement funktioniert nicht wie erwartet. Können Sie das prüfen?
+    - Ich benötige Unterstützung bei der Konfiguration einer neuen Web-Erweiterung für das E-Mail-System.
+    - Die neue Web-Erweiterung führt zu Konflikten mit anderen Softwareanwendungen. Wie kann das behoben werden?
+    - Kann ich eine Web-Erweiterung für die Datenanalyse erhalten? Wo kann ich diese finden?
+    - Die Sicherheitsrichtlinien blockieren die Installation einer neuen Web-Erweiterung. Was soll ich tun?
+    - Wie kann ich die Kompatibilität einer neuen Web-Erweiterung mit unserem bestehenden System überprüfen?
+    - Die neue Web-Erweiterung ist nicht mit unserem Browser kompatibel. Können Sie Alternativen empfehlen?
+    - Ich brauche eine Schulung zur Nutzung der neuen Web-Erweiterung für das Kundenmanagement.
+    - Kann ich eine benutzerdefinierte Web-Erweiterung für unsere Online-Bestellplattform entwickeln lassen?
+    - Die neue Web-Erweiterung verursacht Abstürze im Browser. Wie kann ich das Problem lösen?
+    - Kann ich eine Web-Erweiterung für die Unterstützung von mehrsprachigen Inhalten installieren?
+    - Ich benötige eine neue Web-Erweiterung für die Datenvisualisierung. Welche Optionen stehen zur Verfügung?
+    - Die neue Web-Erweiterung erfordert Administratorrechte für die Installation. Kann ich diese erhalten?
+    - Wie kann ich eine neue Web-Erweiterung für die Integration von Social-Media-Plattformen installieren?
+    - Die Web-Erweiterung für das Projekttracking zeigt keine aktuellen Daten an. Können Sie das überprüfen?
+    - Kann ich eine Web-Erweiterung für die Echtzeitkommunikation mit Kunden installieren?
+    - Die neue Web-Erweiterung ist nicht mit unserer aktuellen Betriebssystemversion kompatibel. Was können wir tun?
+    - Wie kann ich die Leistung der neuen Web-Erweiterung optimieren?
+    - Kann ich eine Web-Erweiterung für die Integration von Zahlungsabwicklungen installieren?
+    - Die neue Web-Erweiterung verlangsamt das Laden von Webseiten. Wie kann ich das beheben?
+    - Wie kann ich die Sicherheitseinstellungen für die neue Web-Erweiterung konfigurieren
+    - Die Kundendaten in unserem System sind falsch. Wie kann ich sie korrigieren?
+    - Warum sind die Lieferadressen in den Stammdaten nicht aktuell?
+    - Kann ich die Produktbeschreibungen in der Datenbank aktualisieren?
+    - Die Preisliste für unsere Produkte ist veraltet. Wie kann ich sie aktualisieren?
+    - Warum stimmen die Lagerbestände in den Stammdaten nicht mit der Realität überein?
+    - Wie kann ich die Bankverbindung eines Lieferanten in den Stammdaten ändern?
+    - Die Kontaktdaten eines Kunden haben sich geändert. Wo kann ich sie aktualisieren?
+    - Kann ich die Stammdaten eines Produkts löschen, das nicht mehr verfügbar ist?
+    - Es gibt Inkonsistenzen in den Mitarbeiterdaten. Wie kann ich sie bereinigen?
+    - Die Produktkategorisierung in der Datenbank ist fehlerhaft. Wie kann ich sie korrigieren?
+    - Warum sind die Garantieinformationen in den Stammdaten falsch?
+    - Wie kann ich die Umsatzsteuer-Identifikationsnummer eines Kunden in den Stammdaten eintragen?
+    - Ein neuer Lieferant ist hinzugekommen. Wo kann ich seine Daten in den Stammdaten erfassen?
+    - Kann ich die Produktbilder in den Stammdaten aktualisieren?
+    - Die Stammdaten für Standorte sind nicht mehr aktuell. Wie kann ich sie aktualisieren?
+    - Warum sind die Versandmethoden in den Stammdaten nicht vollständig?
+    - Kann ich die Abteilungsbezeichnung eines Mitarbeiters in den Stammdaten ändern?
+    - Die Stammdaten für unseren Hauptlieferanten sind veraltet. Wie kann ich sie aktualisieren?
+    - Ein Produkt hat falsche Maße in den Stammdaten. Wie kann ich sie korrigieren?
+    - Warum fehlen bestimmte Felder in den Stammdaten unserer Lieferanten?
+    - Wie kann ich die Öffnungszeiten einer Filiale in den Stammdaten ändern?
+    - Die Währungsinformationen für unsere internationalen Kunden sind falsch. Wie kann ich sie korrigieren?
+    - Kann ich die Vertriebsregion eines Kunden in den Stammdaten aktualisieren?
+    - Warum sind die Artikelnummern in den Stammdaten nicht eindeutig?
+    - Wie kann ich die Datenschutzeinstellungen eines Kunden in den Stammdaten aktualisieren?
+    - Die Versandkostenregeln in den Stammdaten sind veraltet. Wie kann ich sie anpassen?
+
+
+ 
+
+- intent: ask_bls_support
+  examples: |
+    - BLS funktioniert nicht. Wer kann das beheben?
+    - Warum geht BLS nicht?
+    - Ich möchte eine Tour erstellen. Wie mache ich das?
+    - Wie kann ich eine neue Tour erstellen?
+    - Es gibt ein Problem mit der Dockingsession. Was soll ich tun?
+    - Warum funktioniert die Dockingsession nicht?
+    - We Scan startet nicht. Was kann ich machen?
+    - Warum startet We Scan nicht?
+    - BLS startet nicht. Wer kann das reparieren?
+    - Warum fährt BLS nicht hoch?
+    - Ich kann keine Tourdaten eingeben. Was soll ich tun?
+    - Tourdaten werden nicht gespeichert. Wer kann helfen?
+    - Probleme mit der Tourdaten-Eingabe. Was tun?
+    - Die Speditionsseite lädt nicht. Was kann ich tun?
+    - Warum funktioniert die Speditionsseite nicht?
+    - Ich habe ein Problem mit der Speditionsseite. Wer hilft?
+    - Dockingsession bricht ab. Was kann ich tun?
+    - Warum geht die Dockingsession immer wieder verloren?
+    - Es gibt Probleme mit den Tourdaten. Wer kann helfen?
+    - Tourdaten sind nicht korrekt. Was soll ich tun?
+    - Ich kann keine neuen Tourdaten eingeben. Wer kann helfen?
+    - Die Dockingsession startet nicht. Was tun?
+    - Warum funktioniert die Dockingsession nicht richtig?
+    - Die Tourdaten sind fehlerhaft. Wer kann das beheben?
+    - Es gibt Probleme mit der Speditionsseite. Was kann ich tun?
+    - Warum lädt die Speditionsseite so langsam?
+    - Ich kann keine Tour erstellen. Wer kann helfen?
+    - Tourdaten können nicht gespeichert werden. Was tun?
+    - Die Speditionssoftware funktioniert nicht. Wer kann helfen?
+    - Probleme mit der Tourdaten-Software. Was soll ich tun?
+    - Dockingsession wird nicht abgeschlossen. Was tun?
+    - Warum geht die Dockingsession nicht durch?
+    - Probleme bei der Eingabe von Tourdaten. Wer kann helfen?
+    - Ich kann keine neuen Touren anlegen. Was tun?
+    - Tourdaten werden nicht aktualisiert. Wer kann helfen?
+    - Die Speditionsseite reagiert nicht. Was kann ich tun?
+    - Dockingsession funktioniert nicht richtig. Wer kann helfen?
+    - Ich habe ein Problem mit den Tourdaten. Was soll ich tun?
+    - Touren können nicht erstellt werden. Wer hilft?
+    - Probleme bei der Erstellung von Touren. Was tun?
+    - Die Speditionsseite zeigt Fehler. Was kann ich tun?
+    - Tourdaten-Software funktioniert nicht richtig. Wer hilft?
+    - Wie erstelle ich eine neue Tour?
+    - Welche Schritte sind erforderlich, um eine Tour zu planen?
+    - Warum kann ich keine neue Tour anlegen?
+    - Die Tourdaten werden nicht gespeichert. Was soll ich tun?
+    - Wie kann ich bestehende Touren bearbeiten?
+    - Ich habe Probleme mit der Tourplanung. Wer kann helfen?
+    - Warum sind die Tourdaten unvollständig?
+    - Wie kann ich die Route für eine Tour optimieren?
+    - Die Tourinformationen sind nicht korrekt. Was kann ich tun?
+    - Warum funktioniert die Tourverwaltungssoftware nicht richtig?
+    - Ich benötige Unterstützung bei der Zuweisung von Ressourcen für Touren. Wer kann helfen?
+    - Wie kann ich sicherstellen, dass die Tourdaten aktuell sind?
+    - Probleme beim Laden der Tourdaten. Gibt es eine Lösung?
+    - Warum dauert es so lange, eine neue Tour zu planen?
+    - Ich kann die Tourdaten nicht exportieren. Was kann ich tun?
+    - Welche Berichtsmöglichkeiten gibt es für Tourdaten?
+    - Wie kann ich die Abfahrtszeiten für Touren festlegen?
+    - Die Tourverwaltungssoftware stürzt ab. Wie kann ich das Problem beheben?
+    - Warum gibt es Probleme bei der Synchronisation von Tourdaten?
+    - Ich benötige Schulung in der Nutzung der Tourplanungssoftware. Wer bietet diese an?
+    - Wie kann ich die Leistung der Tourplanungssoftware optimieren?
+    - Warum werden einige Touren nicht korrekt angezeigt?
+    - Die Tourpläne sind nicht mit den Kundenvorgaben kompatibel. Was kann ich tun?
+    - Probleme bei der Ressourcenplanung für Touren. Wer kann unterstützen?
+    - Warum sind die Tourdetails in der Software nicht vollständig?
+    - Wie kann ich Fehler bei der Tourenplanung vermeiden?
+    - Die Tourdatenbank ist nicht zugänglich. Wie kann ich die Verbindung prüfen?
+    - Warum gibt es Inkonsistenzen bei den Toureninformationen?
+    - Probleme mit der Tourenoptimierung. Gibt es Tools zur Unterstützung?
+    - Wie kann ich die Tourenhistorie einsehen und analysieren?
+    - Warum sind die Tourberichte nicht aussagekräftig?
+    - Probleme bei der Erstellung von Routen für Touren. Wer kann helfen?
+    - Wie kann ich die Effizienz der Tourplanung verbessern?
+    - Die Tourdaten werden nicht korrekt aufgezeichnet. Was soll ich tun?
+    - Welche Sicherheitsmaßnahmen gibt es für die Tourdatenverwaltung?
+    - Warum gibt es Probleme bei der Übertragung von Tourdaten auf mobile Geräte?
+    - Wie kann ich die Qualität der Toureninformationen sicherstellen?
+    - Probleme bei der Verwaltung von Sonderwünschen in den Tourplänen. Wer kann unterstützen
+    - XDoc
+    - Abfhartszeiten
+    - Lagerix
+    - Fehler BLS
+    - Ich kann die geplante Tour nicht finden. Was soll ich tun?
+    - Warum ist die Tour, die ich erstellt habe, nicht mehr verfügbar?
+    - Die gestrige Tour ist plötzlich verschwunden. Können Sie mir helfen?
+    - Ich habe versucht, eine neue Tour anzulegen, aber sie ist nicht in der Liste.
+    - Wo finde ich die Tour, die für heute geplant war?
+    - Kann es sein, dass die Tour gelöscht wurde? Was könnte passiert sein?
+    - Die Tour für nächste Woche fehlt in der Planung. Was ist passiert?
+    - Ich habe die Tourdaten eingetragen, aber sie sind nicht gespeichert worden.
+    - Warum sind die Touren der letzten Woche nicht mehr in der Historie?
+    - Die geplante Tour für den Kunden XYZ ist nicht mehr in der Übersicht.
+    - Wie kann ich eine archivierte Tour wiederherstellen?
+    - Kann ich die Details einer vergangenen Tour einsehen, die nicht mehr angezeigt wird?
+    - Die Tour, die gestern geplant war, ist nicht durchgeführt worden. Wo finde ich die Details?
+    - Warum sind die Touren der letzten Monate nicht mehr in der Übersicht sichtbar?
+    - Wie kann ich sicherstellen, dass alle geplanten Touren für diesen Monat aufgelistet sind?
+    - Kann ich die Tourhistorie eines bestimmten Fahrers einsehen, der an einer Tour teilgenommen hat?
+    - Ich habe eine Tour für heute geplant, aber sie erscheint nicht in der Tagesübersicht.
+    - Wo finde ich die archivierten Touren aus dem letzten Quartal?
+    - Warum sind die Touren der letzten drei Tage nicht mehr in der Historie?
+    - Kann ich die Tourenplanung für die nächste Woche wiederherstellen?
+    - Die Tour, die für morgen geplant war, wird nicht mehr in der Planung angezeigt.
+    - Wie kann ich sicherstellen, dass alle geplanten Touren für heute korrekt eingetragen sind?
+    - Kann ich die Details einer stornierten Tour einsehen?
+    - Wo finde ich die Daten einer Tour, die vor einem Monat durchgeführt wurde?
+    - Warum sind die geplanten Touren für diesen Monat plötzlich verschwunden?
+    - Die Tour, die gestern geplant war, wird nicht mehr in der Übersicht angezeigt
+    - Fehler im Xdoc
+    - Probleme Fahrerzuteilung auf Tour
+
+- intent: ask_edi_support
+  examples: |
+    - lobster
+    - Sendung fehlt
+    - Ich habe ein Problem mit EDI. Wer kann helfen?
+    - Warum funktioniert EDI nicht?
+    - Die EDI-Übertragung schlägt fehl. Was kann ich tun?
+    - Warum geht die EDI-Übertragung nicht durch?
+    - Ich bekomme eine Fehlermeldung bei EDI. Was soll ich tun?
+    - Die EDI-Verbindung bricht ab. Wer kann helfen?
+    - EDI-Daten werden nicht gesendet. Was kann ich tun?
+    - Warum werden die EDI-Daten nicht übertragen?
+    - Probleme bei der EDI-Übertragung. Wer hilft?
+    - Ich kann keine EDI-Daten empfangen. Was soll ich tun?
+    - EDI-Daten kommen nicht an. Was kann ich tun?
+    - Es gibt Probleme mit der EDI-Verbindung. Wer kann helfen?
+    - Die EDI-Software funktioniert nicht richtig. Was tun?
+    - Warum geht die EDI-Software nicht?
+    - Probleme mit der EDI-Verbindung. Wer hilft?
+    - EDI-Daten sind fehlerhaft. Was kann ich tun?
+    - Warum sind die EDI-Daten falsch?
+    - Die EDI-Übertragung funktioniert nicht. Was tun?
+    - Ich bekomme Fehler bei der EDI-Übertragung. Wer hilft?
+    - EDI-Verbindung ist instabil. Was kann ich tun?
+    - Warum ist die EDI-Verbindung nicht stabil?
+    - EDI-Daten werden nicht empfangen. Wer kann helfen?
+    - Die EDI-Übertragung schlägt immer wieder fehl. Was tun?
+    - Warum gehen die EDI-Daten nicht durch?
+    - Probleme bei der EDI-Datenübertragung. Wer hilft?
+    - Ich kann keine EDI-Daten senden. Was soll ich tun?
+    - EDI-Software zeigt Fehler. Was kann ich tun?
+    - Warum zeigt die EDI-Software Fehler an?
+    - EDI-Daten sind nicht korrekt. Wer kann helfen?
+    - Die EDI-Verbindung ist unterbrochen. Was tun?
+    - Probleme mit der EDI-Datenübertragung. Wer hilft?
+    - Ich kann keine EDI-Daten übertragen. Was tun?
+    - EDI-Daten werden nicht gesendet. Wer kann helfen?
+    - Warum funktioniert die EDI-Datenübertragung nicht?
+    - EDI-Software reagiert nicht. Was tun?
+    - Die EDI-Übertragung ist fehlerhaft. Wer hilft?
+    - Probleme bei der EDI-Übertragung. Was tun?
+    - Ich bekomme Fehlermeldungen bei EDI. Wer kann helfen?
+    - EDI-Daten kommen nicht durch. Was soll ich tun?
+    - Warum gehen die EDI-Daten nicht raus?
+    - Die EDI-Verbindung funktioniert nicht. Was tun?
+    - Probleme mit EDI. Wer kann helfen?
+    - Die EDI-Übertragung geht nicht. Was tun?
+    - EDI-Datenübertragung schlägt fehl. Wer hilft?
+    - Ich kann die Kundenakten für Kunde XYZ nicht finden. Können Sie mir helfen?
+    - Warum fehlen die Daten von Kunde ABC in der Datenbank?
+    - Die Kundendatenbank zeigt fehlende Einträge für Kunde DEF. Was könnte die Ursache sein?
+    - Ich benötige dringend die Kundendaten für Projekt XYZ, aber sie scheinen zu fehlen.
+    - Warum sind die letzten Bestellungen von Kunde GHI nicht mehr verfügbar?
+    - Kann jemand die fehlenden Daten von Kunde JKL wiederherstellen?
+    - Die Kundenhistorie von Kunde MNO fehlt in unserem System. Können Sie das überprüfen?
+    - Warum sind die Kontaktdaten von Kunde PQR nicht mehr in der CRM-Software?
+    - Ich kann die Zahlungshistorie von Kunde STU nicht finden. Ist sie gelöscht worden?
+    - Kann jemand die fehlenden Transaktionsdaten von Kunde VWX wiederherstellen?
+    - Die Vertragsdetails von Kunde YZ sind plötzlich verschwunden. Was ist passiert?
+    - Warum sind die letzten Support-Tickets von Kunde 123 nicht mehr verfügbar?
+    - Ich benötige die Projektdateien von Kunde 456, aber sie sind nicht mehr zugänglich.
+    - Kann jemand die fehlenden Verkaufsdaten von Kunde 789 wiederherstellen?
+    - Die Lieferscheininformationen von Kunde 012 fehlen in unserem System. Können Sie das untersuchen?
+    - Warum sind die letzten Angebote von Kunde 345 nicht mehr abrufbar?
+    - Kann jemand die fehlenden Rechnungsdaten von Kunde 678 wiederherstellen?
+    - Die Produktbewertungen von Kunde 901 sind nicht mehr verfügbar. Ist etwas schiefgelaufen?
+    - Warum sind die letzten E-Mails von Kunde 234 plötzlich verschwunden?
+    - Kann jemand die fehlenden Buchungsdaten von Kunde 567 wiederherstellen?
+    - Die letzten Serviceanfragen von Kunde 890 fehlen in unserem System. Können Sie das überprüfen?
+    - WE Daten fehlen
+    - WA Daten fehlen
+    - Der Kunde hat die Daten nicht erhalten. Was ist passiert?
+    - Warum wurden die Daten nicht an den Kunden gesendet?
+    - Kann jemand prüfen, warum die Daten nicht zugestellt wurden?
+    - Die Kundendaten konnten nicht übermittelt werden. Was ist das Problem?
+    - Wie kann ich die fehlenden Daten für den Kunden nachsenden?
+    - Die Lieferung der Daten an den Kunden ist fehlgeschlagen. Was ist zu tun?
+    - Der Kunde beschwert sich, dass die Daten nicht angekommen sind. Können Sie das überprüfen?
+    - Warum wurden die Daten nicht rechtzeitig an den Kunden verschickt?
+    - Die Übertragung der Kundendaten ist fehlgeschlagen. Wer kann helfen?
+    - Kann jemand die fehlenden Daten für den Kunden erneut senden?
+    - Der Kunde hat die benötigten Informationen nicht erhalten. Was soll ich tun?
+    - Warum sind die Daten des Kunden nicht im System?
+    - Die Daten des Kunden sind nicht vollständig angekommen. Wie kann das behoben werden?
+    - Kann jemand prüfen, ob die Daten korrekt an den Kunden gesendet wurden?
+    - Der Kunde hat die erwarteten Daten nicht erhalten. Gibt es ein Problem mit der Übertragung?
+    - Wie kann ich sicherstellen, dass die Daten des Kunden richtig übermittelt werden?
+    - Warum fehlen bestimmte Informationen in den Kundendaten?
+    - Der Kunde meldet fehlende Daten. Können Sie das überprüfen und beheben?
+    - Die Daten des Kunden wurden nicht ordnungsgemäß übertragen. Was ist die Ursache?
+    - Kann jemand die fehlenden Kundendaten aus dem System abrufen?
+    - Der Kunde wartet auf die Daten. Wann werden sie verschickt?
+    - Was ist eine DESADV-Nachricht und wofür wird sie verwendet?
+    - Warum ist der Empfänger einer DESADV-Nachricht wichtig?
+    - Wie kann ich eine DESADV-Nachricht interpretieren?
+    - Die DESADV-Nachricht wurde nicht richtig empfangen. Was kann ich tun?
+    - Wie kann ich eine DESADV-Nachricht erstellen und versenden?
+    - Welche Datenfelder sind in einer DESADV-Nachricht enthalten?
+    - Warum benötigen wir DESADV im Geschäftsaustausch?
+    - Probleme bei der Validierung einer DESADV-Nachricht. Was sind mögliche Ursachen?
+    - Die DESADV-Nachricht enthält falsche Informationen. Wie kann ich das korrigieren?
+    - Welche EDI-Standards gelten für die Übertragung von DESADV-Nachrichten?
+    - Wie können wir sicherstellen, dass DESADV-Nachrichten sicher übermittelt werden?
+    - Probleme bei der Integration von DESADV in unser ERP-System. Wer kann helfen?
+    - Warum ist die Verarbeitung von DESADV-Nachrichten wichtig für unser Lagermanagement?
+    - Welche Fehler können bei der Erstellung einer DESADV-Nachricht auftreten?
+    - Die DESADV-Nachrichten kommen nicht pünktlich an. Was sind mögliche Gründe?
+    - Welche Software wird zur Erstellung und Verarbeitung von DESADV-Nachrichten verwendet?
+    - Wie kann ich prüfen, ob eine DESADV-Nachricht erfolgreich versendet wurde?
+    - Probleme mit der Konvertierung von DESADV in ein lesbares Format. Was kann ich tun?
+    - Welche Sicherheitsmaßnahmen sollten beim Austausch von DESADV-Nachrichten beachtet werden?
+    - Warum sind korrekte Adressdaten in einer DESADV-Nachricht wichtig?
+    - Wie kann ich prüfen, ob eine DESADV-Nachricht den vereinbarten Standards entspricht?
+    - Probleme bei der Synchronisierung von DESADV-Nachrichten mit unserem Warenwirtschaftssystem.
+    - Warum müssen DESADV-Nachrichten oft aktualisiert oder angepasst werden?
+    - Wie kann ich sicherstellen, dass alle relevanten Informationen in einer DESADV-Nachricht enthalten sind?
+    - Probleme bei der Verfolgung von Warenlieferungen anhand von DESADV-Nachrichten. Wer kann unterstützen?
+    - Warum sind alle Bestandteile einer DESADV-Nachricht wichtig für die Lieferkette?
+    - Wie können wir die Effizienz der DESADV-Nachrichtenübermittlung verbessern?
+    - Probleme bei der Interpretation von Datenfeldern in einer DESADV-Nachricht. Wie kann ich das lösen?
+    - Warum kann eine DESADV-Nachricht zu Dateninkonsistenzen führen und wie kann dies vermieden werden?
+    - Was ist eine Schnittstelle und wofür wird sie verwendet?
+    - Welche Arten von Schnittstellen gibt es?
+    - Warum sind Schnittstellen wichtig in der IT?
+    - Wie funktioniert eine API-Schnittstelle?
+    - Was sind die Unterschiede zwischen API und Web-Services?
+    - Welche Rolle spielen Schnittstellen in der Systemintegration?
+    - Wie werden Daten über Schnittstellen ausgetauscht?
+    - Welche Standards gibt es für Schnittstellenkommunikation?
+    - Warum ist die Dokumentation von Schnittstellen wichtig?
+    - Wie werden Sicherheitsaspekte bei Schnittstellen berücksichtigt?
+    - Was sind die Herausforderungen bei der Implementierung von Schnittstellen?
+    - Wie können Unternehmen die Interoperabilität zwischen verschiedenen Systemen sicherstellen?
+    - Welche Best Practices gibt es für die Entwicklung und Nutzung von Schnittstellen?
+    - Wie kann die Performance von Schnittstellen optimiert werden?
+    - Warum ist die Versionierung von Schnittstellen wichtig?
+    - Wie werden Fehler in der Schnittstellenkommunikation behoben?
+    - Welche Rolle spielen Schnittstellen in der Cloud-Integration?
+    - Was sind die Trends und Entwicklungen im Bereich der Schnittstellenkommunikation?
+    - Wie können Unternehmen ihre IT-Systeme durch effiziente Schnittstellen verbessern?
+    - Welche Bedeutung haben Standards wie RESTful APIs und SOAP in der Schnittstellenentwicklung?
+    - Wie wählt man die richtige Schnittstellentechnologie für ein Projekt aus?
+    - Warum ist die Automatisierung von Schnittstellenprozessen wichtig?
+    - Welche Vorteile bietet die Verwendung von Standard-Schnittstellenprotokollen?
+    - Wie können Unternehmen die Sicherheit ihrer Schnittstellen verbessern?
+    - Welche Rolle spielen Schnittstellen in der IoT-Integration?
+    - Wie können Unternehmen die Skalierbarkeit ihrer Schnittstellenlösungen sicherstellen?
+    - Ich möchte eine neue Schnittstelle für die Integration von System A und System B beantragen.
+    - Können Sie mir helfen, eine API-Schnittstelle für den Datenaustausch zwischen unseren Plattformen zu erstellen?
+    - Wir benötigen eine neue Schnittstelle, um Daten von System C in unser Lagerverwaltungssystem zu importieren.
+    - Wie kann ich eine neue SOAP-Schnittstelle für die Kommunikation mit externen Partnern anfordern?
+    - Ich würde gerne eine neue RESTful API-Schnittstelle für unseren Kundendienst entwickeln lassen.
+    - Kann ich eine neue Schnittstelle beantragen, um die Daten von unserem CRM-System in das Buchhaltungssystem zu übertragen?
+    - Welche Schritte sind erforderlich, um eine neue MQTT-Schnittstelle für die Datenübertragung in Echtzeit zu erstellen?
+    - Wie beantrage ich eine neue JSON-Schnittstelle für die Integration unserer mobilen Anwendung mit dem Backend-System?
+    - Ich benötige eine neue Schnittstelle für die Integration von IoT-Geräten mit unserer Cloud-Plattform.
+    - Kann ich eine neue Schnittstelle beantragen, um die Datenanalyse von unserem Data Warehouse in eine Business Intelligence-Anwendung zu übertragen?
+    - Welche Informationen werden benötigt, um eine neue XML-Schnittstelle für den Austausch von Geschäftsdokumenten zu beantragen?
+    - Ich möchte eine neue GraphQL-Schnittstelle für die flexible Abfrage unserer Produktkataloge und Bestände einrichten.
+    - Kann ich eine neue Schnittstelle für die Integration von Zahlungsabwicklungen mit unserem E-Commerce-System beantragen?
+    - Wie kann ich eine neue OData-Schnittstelle für die interoperable Datenfreigabe mit externen Partnern einrichten?
+    - Welche Ressourcen und Genehmigungen sind erforderlich, um eine neue Schnittstelle für die Datenanalyse und Berichterstellung zu beantragen?
+    - Ich möchte eine automatisierte E-Mail für Benutzeraktivierungen in unserem System einrichten.
+    - Wie kann ich eine automatische Benachrichtigung per E-Mail für neue Bestellungen einrichten?
+    - Können Sie mir helfen, automatische Erinnerungs-E-Mails für offene Rechnungen zu konfigurieren?
+    - Ich benötige eine automatisierte E-Mail für die Bestätigung von registrierten Benutzern.
+    - Kann ich automatische E-Mails einrichten, um Kunden an bevorstehende Termine zu erinnern?
+    - Wie kann ich automatisierte E-Mails für den Versand von Bestellbestätigungen konfigurieren?
+    - Wir möchten automatische E-Mails versenden, um Kundenfeedback nach dem Kauf zu sammeln.
+    - Kann ich eine automatische E-Mail-Benachrichtigung für den Support-Ticket-Status einrichten?
+    - Ich benötige eine automatisierte E-Mail für die Benachrichtigung über Software-Updates an unsere Kunden.
+    - Wie kann ich automatische Erinnerungs-E-Mails für abgelaufene Abonnements einrichten?
+    - Wir möchten automatische E-Mails für die Zustellbestätigung von Lieferungen konfigurieren.
+    - Kann ich eine automatische E-Mail für die Benachrichtigung über Änderungen in unseren AGB einrichten?
+    - Wie kann ich automatische E-Mails für die Überprüfung von Sicherheitswarnungen einrichten?
+    - Ich benötige eine automatisierte E-Mail für die Benachrichtigung über neue Blogbeiträge an Abonnenten.
+    - Können Sie mir helfen, automatische E-Mails für die Überwachung von Serverstatus-Updates zu konfigurieren?
+    - Wir möchten automatische E-Mails für die Weiterleitung von Anfragen an den richtigen Ansprechpartner einrichten.
+    - Im Auftrag ist die falsche Lieferadresse angegeben. Wie kann ich das korrigieren?
+    - Der Kunde hat eine falsche Rechnungsadresse eingegeben. Können Sie das ändern?
+    - Auf der Bestellbestätigung steht eine falsche Adresse. Kann das korrigiert werden?
+    - Die Versandetiketten zeigen eine falsche Lieferadresse an. Wie kann das behoben werden?
+    - Beim Ausdrucken der Auftragsbestätigung wurde die falsche Adresse gedruckt. Was ist zu tun?
+    - Die Bestellung wurde an die falsche Adresse gesendet. Wie können wir das ändern?
+    - Auf der Auftragsseite im CRM-System steht die falsche Adresse. Wie kann ich das aktualisieren?
+    - Die Rücksendeadresse im Auftrag ist falsch. Können Sie das überprüfen und anpassen?
+    - Der Kunde hat seine Adresse bei der Online-Bestellung falsch angegeben. Wie können wir das korrigieren?
+    - Beim Importieren der Kundendaten wurde eine falsche Lieferadresse übernommen. Können wir das bereinigen?
+    - Die Rechnungsadresse auf der Webseite ist falsch angezeigt worden. Wie kann ich das korrigieren?
+    - Die Lieferadresse auf dem Versandetikett ist nicht korrekt. Wie können wir das anpassen?
+    - Bei der letzten Bestellung wurde die Adresse des Kunden falsch eingegeben. Was ist der nächste Schritt?
+    - Der Auftrag wurde an die falsche Abteilung oder den falschen Standort gesendet. Wie können wir das ändern?
+    - Die Adresse des neuen Mitarbeiters wurde falsch im HR-System eingetragen. Wie können wir das anpassen?
+    - Der Drucker hat die falsche Adresse auf den Versandetiketten gedruckt. Können Sie das überprüfen und beheben?
+    - Wie sicher ist die Übermittlung meiner Daten an Ihr Unternehmen?
+    - Welche Daten benötigen Sie von mir für die weitere Bearbeitung?
+    - Kann ich meine Daten verschlüsselt übermitteln?
+    - Gibt es spezielle Richtlinien oder Vorschriften zur Datenübermittlung?
+    - Welche Dateiformate akzeptieren Sie für die Datenübermittlung?
+    - Muss ich bestimmte Formulare ausfüllen, um Daten zu übermitteln?
+    - Wie kann ich meine Daten sicher an Sie senden?
+    - Wann erhalte ich eine Bestätigung über den Eingang meiner übermittelten Daten?
+    - Kann ich den Fortschritt meiner übermittelten Daten verfolgen?
+    - Wer ist mein Ansprechpartner für Fragen zur Datenübermittlung?
+    - Gibt es eine maximale Dateigröße für die Datenübermittlung?
+    - Welche Sicherheitsmaßnahmen haben Sie für die Datenübermittlung eingerichtet?
+    - Wie lange dauert die Verarbeitung meiner übermittelten Daten in der Regel?
+    - Kann ich nach der Übermittlung meiner Daten Änderungen vornehmen?
+    - Wann werden meine übermittelten Daten gelöscht?
+    - Muss ich zusätzliche Informationen bereitstellen, bevor ich meine Daten übermittle?
+    - Welche Daten benötigen Sie für die Registrierung / Anmeldung / Bestellung?
+    - Wie kann ich Daten für eine Rückerstattung übermitteln?
+    - Was soll ich tun, wenn ein Fehler bei der Übermittlung meiner Daten auftritt?
+    - Kann ich meine Daten auch postalisch / persönlich übermitteln?
+    - Gibt es Besonderheiten zu beachten, wenn ich sensible Daten übermittele?
+    - Wie kann ich sicherstellen, dass meine Daten korrekt übermittelt wurden?
+    - Gibt es Anforderungen an die Formatierung meiner übermittelten Daten?
+    - Kann ich mehrere Dateien gleichzeitig übermitteln?
+    - Welche Daten benötigen Sie für die Erstellung eines Benutzerkontos?
+    - Gibt es Unterschiede in der Datenübermittlung für verschiedene Dienstleistungen / Produkte?
+    - Kann ich meine Daten vor der Übermittlung ansehen / prüfen?
+    - Muss ich meine Daten vor der Übermittlung verschlüsseln?
+    - FTP 
+    - SFTP
+    - Lobster Data
+    - Daten aus dem Lobster fehlen
+    - mir fehlen die WE Daten im BLS
+    - mir fehlen die WA Daten im Alwis
+    - Kunde hat aufträge übermittelt, fehlen aber
+    - Falsche Aufträg im System
+    - Fehler auftragsübermittlung
+    - Fehlerhafte Übermittlung
+    - Daten fehlen im BLS
+    - Daten fehlen im Alwis
+    - Wo sind die Daten?
+    - Avis fehlt
+    

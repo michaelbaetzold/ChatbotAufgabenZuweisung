@@ -1,0 +1,10 @@
+[
+  {
+    "text": "Bin mir nicht sicher",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.4819639027118683
+    }
+  }
+]

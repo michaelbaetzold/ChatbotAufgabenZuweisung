@@ -1,0 +1,23 @@
+
+version: "2.0"
+
+stories:
+- story: ask it support
+  steps:
+  - intent: ask_it_support
+  - action: utter_it_support
+
+- story: ask lager it support
+  steps:
+  - intent: ask_lager_it_support
+  - action: utter_lager_it_support
+
+- story: ask bls support
+  steps:
+  - intent: ask_bls_support
+  - action: utter_bls_support
+
+- story: ask edi support
+  steps:
+  - intent: ask_edi_support
+  - action: utter_edi_support
