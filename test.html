@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Kommunikation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .chat-container {
+            width: 500px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        .chat-container h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .form-group input, 
+        .form-group textarea {
+            width: calc(100% - 12px);
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        .form-group button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+        .response {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .response p {
+            margin: 10px 0;
+        }
+        .response p strong {
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .error-message {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #f44336;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            z-index: 9999; /* hohe Z-Index-Wert, um über anderen Inhalten zu schweben */
+            animation: fadeOut 5s forwards;
+        }
+
+
+        @keyframes fadeOut {
+            0% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <h2>Chatbot Kommunikation</h2>
+        <div class="form-group">
+            <label for="username">Benutzername:</label>
+            <input type="text" id="username" placeholder="Benutzername eingeben (z.B. user123)">
+        </div>
+        <div class="form-group">
+            <label for="message">Nachricht:</label>
+            <textarea id="message" placeholder="Nachricht eingeben (z.B. Mein PC startet nicht)"></textarea>
+        </div>
+        <div class="form-group">
+            <button onclick="sendMessage()">Senden</button>
+        </div>
+        <div class="response" id="response">
+            <!-- Hier werden die Antwort-Nachrichten angezeigt -->
+        </div>
+    </div>
+
+    <script>
+        async function sendMessage() {
+    const username = document.getElementById('username').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    // Überprüfen, ob Benutzername und Nachricht eingegeben wurden
+    if (username === '' || message === '') {
+        showError('Bitte geben Sie Benutzername und Nachricht ein.');
+        return;
+    }
+
+    // Erstellen des JSON-Objekts
+    const requestData = {
+        "sender": username,
+        "message": message
+    };
+
+    try {
+        // POST-Anfrage an die API senden
+        const response = await fetch('http://192.168.0.34:5005/webhooks/rest/webhook', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(requestData)
+        });
+
+        // Überprüfen, ob die Anfrage erfolgreich war
+        if (!response.ok) {
+            throw new Error('Fehler beim Senden der Nachricht. Statuscode: ' + response.status);
+        }
+
+        // Antwort von der API verarbeiten
+        const responseData = await response.json();
+
+        // Anzeigen der Nachricht und der Antwort auf der Webseite
+        const responseDiv = document.getElementById('response');
+        responseDiv.innerHTML = '<p><strong>Sie:</strong> ' + message + '</p>';
+        responseData.forEach(item => {
+            responseDiv.innerHTML += '<p><strong>Bot:</strong> ' + item.text + '</p>';
+        });
+
+
+    
+    } catch (error) {
+        console.error('Fehler beim Senden der Nachricht:', error);
+        //Bestätigung wenn NAchricht übermittelt wurde
+        const errorContainer = document.createElement('div');
+        errorContainer.className = 'error-message';
+        errorContainer.textContent = 'Fehler beim Übermitteln der Nachricht! Prüfen Sie die Konsole für mehr Infos';
+
+        // Fügen Sie die Fehlermeldung vor dem Chat-Container ein
+        const chatContainer = document.querySelector('.chat-container');
+        chatContainer.parentNode.insertBefore(errorContainer, chatContainer);
+
+        // Entfernen Sie die Fehlermeldung nach 5 Sekunden
+        setTimeout(() => {
+            errorContainer.remove();
+        }, 5000);
+    }
+}
+
+function showError(message) {
+    const errorContainer = document.createElement('div');
+    errorContainer.className = 'error-message';
+    errorContainer.textContent = message;
+
+    // Fügen Sie die Fehlermeldung vor dem Chat-Container ein
+    const chatContainer = document.querySelector('.chat-container');
+    chatContainer.parentNode.insertBefore(errorContainer, chatContainer);
+
+    // Entfernen Sie die Fehlermeldung nach 5 Sekunden
+    setTimeout(() => {
+        errorContainer.remove();
+    }, 5000);
+}
+
+    </script>
+</body>
+</html>
